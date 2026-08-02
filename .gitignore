@@ -4,6 +4,8 @@ data/*.json
 __pycache__/
 .venv/
 *.env
-output/
+output/*.csv
+output/*.json
+!output/papers/university_ranking_spillover/ssci_final/PAPER_SSCI.md
 *.log
 .DS_Store
