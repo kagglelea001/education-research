@@ -1,0 +1,36 @@
+## Theoretical Framework
+
+### H1: Brand Signaling and Market-Facing Outcomes
+
+Drawing on signaling theory, we posit that QS World University Rankings function as credible quality signals that reduce information asymmetry in the global higher education market. When a university enters the top 200, it gains enhanced visibility and legitimacy among prospective students, employers, and academic partners. We hypothesize that this brand effect manifests most strongly in market-facing outcomes that directly respond to external perceptions.
+
+**H1: Top-200 entry produces positive effects on brand-sensitive indicators.**
+
+Our regression discontinuity estimates confirm substantial brand effects across multiple market-facing dimensions. International student enrollment increases by 28–39 points (85–145% relative to the counterfactual), representing the most dramatic response—consistent with international students being the most ranking-sensitive stakeholder group. Employer reputation scores improve by 9–12 points (29–40%), reflecting enhanced labor market perceptions. Faculty-student ratios increase by 33–42 points (83–102%), suggesting that ranked universities invest in smaller class sizes to maintain their competitive position. Employment outcomes improve by 11–16 points (32–47%), indicating that ranking gains translate into tangible graduate labor market advantages.
+
+### H2: Resource Reallocation and Research Concentration
+
+We further theorize that top-200 entry triggers strategic resource reallocation. Universities facing heightened competitive pressure may redirect resources toward ranking-relevant activities—particularly those weighted heavily in QS methodology—potentially at the expense of research-intensive activities that are less directly tied to ranking metrics.
+
+**H2: Top-200 entry produces negative effects on research-oriented indicators.**
+
+The evidence strongly supports this concentration hypothesis. Citation rates decline by 29–39 points (74–119% below counterfactual levels), suggesting a shift away from high-impact research production. Sustainability scores decrease by 21–25 points (54–61%), indicating reduced investment in this emerging but less ranking-critical domain. International research network scores fall by 17 points (24%), reflecting weakened collaborative research ties. These patterns are consistent with a resource-constrained environment where ranking maximization requires trade-offs.
+
+### H3: Net Welfare Effects
+
+The net welfare implications depend critically on outcome domain. Market-facing improvements may come at the cost of research excellence, raising questions about the long-term sustainability of ranking-driven strategies.
+
+**H3: The net effect of top-200 entry is positive for market outcomes but negative for research outcomes.**
+
+Our findings reveal a clear divergence: universities gain in student recruitment, employer perception, and teaching capacity while simultaneously experiencing research output deterioration. This bifurcation suggests that QS rankings incentivize a particular institutional strategy—prioritizing teaching quality signals and market positioning over research depth.
+
+### Mechanism Mapping
+
+| QS Ranking Mechanism | Our Findings | Qin et al. (2026) Mechanism |
+|---|---|---|
+| **Visibility effect** | +28–39 intl students; +9–12 employer reputation | Enhanced global recognition attracts international applicants |
+| **Resource reallocation** | +33–42 faculty-student ratio; −29–39 citations | Diversion of funds from research to teaching infrastructure |
+| **Strategic compliance** | +11–16 employment outcomes; −21–25 sustainability | Active pursuit of ranking-weighted metrics |
+| **Competitive pressure** | −17 intl research network | Reduced collaboration due to intensified competition |
+
+The density test confirms no systematic manipulation at the cutoff (11.1% discontinuity), validating our identification strategy across 54 countries (25 treated, 29 control, 532 spillover universities).

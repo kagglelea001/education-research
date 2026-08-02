@@ -1,0 +1,28 @@
+# Beyond the Flagship: Spillover Effects of Global University Rankings on National Higher Education Systems — A Regression Discontinuity Design
+
+**Author 1**  
+[Affiliation 1]  
+[Email 1]  
+[ORCID 1]
+
+**Author 2**  
+[Affiliation 2 – Chinese University]  
+[Email 2]  
+[ORCID 2]
+
+**Author 3**  
+[Affiliation 3 – Chinese University]  
+[Email 3]  
+[ORCID 3]
+
+---
+
+**Corresponding Author:** Author 1, [Affiliation 1], [Email 1]
+
+**Acknowledgements:** The authors declare no conflicts of interest. This research received no specific grant from any funding agency in the public, commercial, or not-for-profit sectors.
+
+**Data Availability:** Replication materials and code will be made available upon publication.
+
+---
+
+*Manuscript prepared for submission to Studies in Higher Education*

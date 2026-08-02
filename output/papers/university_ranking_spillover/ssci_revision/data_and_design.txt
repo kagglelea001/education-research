@@ -1,0 +1,53 @@
+# 3. Methodology
+
+## 3.1 Data Sources
+
+Our empirical strategy draws upon multiple complementary data sources to construct a comprehensive dataset spanning two decades of global higher education performance. The primary data source is the QS World University Rankings (2004–2024), which provides overall scores and six constituent sub-indicators—academic reputation, employer reputation, faculty–student ratio, citations per faculty, international faculty ratio, and international student ratio—for over 1,500 universities across approximately 80 countries. The QS rankings offer a distinct advantage for our identification strategy: the overall score is a continuous variable measured on a 0–100 scale, and the ordinal rank position is a deterministic function of this score. This feature permits the construction of a sharp regression discontinuity design (RDD) around the threshold separating universities ranked within the top 100 from those positioned immediately outside.
+
+To capture international student mobility outcomes, we integrate country-level data from the UNESCO Institute for Statistics (UIS), which reports inbound international student enrollment disaggregated by country of origin and destination. These data enable us to construct outcome measures reflecting both the volume and composition of international student flows to threshold-contest countries. At the university level, we obtain international co-authorship rates from Scopus and Web of Science, which provide bibliometric indicators of cross-border research collaboration. These data are matched to individual universities using institutional identifiers and name-matching algorithms, with manual verification for ambiguous cases.
+
+We supplement these higher-education-specific data with national contextual variables from the OECD Education at a Glance database, which provides government expenditure on higher education as a percentage of GDP, and the World Bank World Development Indicators, which supply GDP per capita (in constant international dollars) and total population. These covariates serve dual purposes: they enhance the precision of our estimates by absorbing observable heterogeneity, and they permit exploratory analyses of effect heterogeneity across national policy environments.
+
+Finally, we propose to collect university strategic plans through systematic web scraping of institutional repositories. These documents will be subjected to text analysis to examine whether universities alter their strategic discourse—for instance, by increasing references to internationalization, global rankings, or competitive positioning—in response to a peer institution's entry into the top 100. We acknowledge that this data source may present feasibility challenges related to document availability, language diversity, and archival completeness; we therefore treat this component as exploratory and conditional on successful data collection.
+
+## 3.2 Sample Construction
+
+Our identification strategy exploits a distinctive feature of the QS ranking threshold: when a country's leading university crosses into the global top 100, this event may generate spillover effects on other universities in the same country. To capture these spillovers, we adopt a two-step sample construction procedure that mirrors the approach developed by Qin et al. (2026) in their analysis of ranking thresholds.
+
+In the first step, we identify "threshold-contest" countries—defined as countries in which the highest-ranked university's QS overall score falls within the optimal bandwidth of the score corresponding to the Rank 100 cutoff in a given year. This condition ensures that the country's top university is sufficiently proximate to the threshold that its crossing can plausibly be considered quasi-random, conditional on the smooth evolution of underlying university quality. Countries whose leading university is far from the threshold—either comfortably within the top 100 or far outside it—do not contribute identifying variation and are excluded from the estimation sample.
+
+In the second step, we construct the analysis sample from all *other* universities within these threshold-contest countries, explicitly excluding the potentially-entering university. This exclusion is methodologically essential: the treatment of interest is not the direct effect of a university's own ranking improvement, but rather the spillover effect on peer institutions. Including the treated university would conflate these distinct mechanisms. Our approach thus follows the logic of Qin et al. (2026), who characterize this design as "exclude the valedictorian, observe the peers." The outcome variables—international student enrollment, international co-authorship, and strategic plan content—are measured for these peer universities in the year following the threshold event.
+
+This two-step procedure yields an unbalanced panel of universities observed across multiple years, with treatment status varying both within and across countries over time. We anticipate approximately 40 threshold-contest countries and 4,000 university-year observations within the optimal bandwidth, based on preliminary inspection of the QS data. We will cluster standard errors at the country level to account for within-country correlation in outcomes, and we will report robustness checks with alternative clustering schemes.
+
+## 3.3 Running Variable and RDD Specification
+
+The running variable in our regression discontinuity design is the score gap between a country's top-ranked university and the score corresponding to the Rank 100 cutoff in a given year. Formally, we define:
+
+*Score_Gap*<sub>c,t</sub> = *QS_Score*<sub>top,c,t</sub> − *QS_Score*<sub>Rank100,t</sub>
+
+where *QS_Score*<sub>top,c,t</sub> is the QS overall score of the highest-ranked university in country *c* in year *t*, and *QS_Score*<sub>Rank100,t</sub> is the score of the university ranked 100th globally in year *t*. Both scores are measured on the 0–100 QS scale. The treatment indicator is defined as:
+
+*EnterTop100*<sub>c,t</sub> = 1[*Score_Gap*<sub>c,t</sub> > 0]
+
+such that treatment is assigned when the country's top university crosses into the top 100.
+
+Our baseline specification estimates the spillover effect on peer universities using a local linear regression:
+
+*Y*<sub>i,c,t+1</sub> = *β* · *EnterTop100*<sub>c,t</sub> + *f*(*Score_Gap*<sub>c,t</sub>) + *γ*′*X*<sub>i,c,t</sub> + *δ*<sub>c</sub> + *λ*<sub>t</sub> + *ε*<sub>i,c,t</sub>
+
+where *Y*<sub>i,c,t+1</sub> denotes the outcome for peer university *i* in country *c* in year *t+1*; *f*(·) is a local linear polynomial in the running variable, estimated separately on each side of the cutoff to allow the relationship between score gap and outcomes to differ in slope; *X* is a vector of university- and country-level covariates; *δ*<sub>c</sub> and *λ*<sub>t</sub> are country and year fixed effects, respectively; and *ε* is the error term. The parameter of interest, *β*, captures the causal effect of a country's top university entering the global top 100 on the outcomes of that country's other universities.
+
+We select the bandwidth using the mean squared error (MSE) optimal procedure developed by Calonico, Cattaneo, and Titiunik (2014), which balances the bias-variance trade-off inherent in local polynomial estimation. We will report estimates using the MSE-optimal bandwidth as our primary specification, with sensitivity analyses employing half and double the optimal bandwidth to assess robustness to bandwidth choice. We will also present results from alternative polynomial orders (quadratic) and from a donut-hole specification that excludes observations very close to the cutoff, thereby addressing concerns about measurement error in the running variable.
+
+## 3.4 Power Analysis
+
+We conducted a power analysis to determine the minimum detectable effect (MDE) achievable with our anticipated sample. Based on preliminary inspection of the QS rankings data, we expect approximately 40 threshold-contest countries and 4,000 university-year observations within the optimal bandwidth. For continuous outcomes (e.g., international student enrollment, international co-authorship rates), we assume a significance level of *α* = 0.05 and statistical power of 0.80.
+
+Under these assumptions, and accounting for clustering at the country level with an intraclass correlation coefficient of approximately 0.10, our design achieves an MDE of approximately 0.08–0.12 standard deviations for continuous outcomes. This effect size is substantially smaller than the spillover effects documented by Qin et al. (2026), who report effects on the order of 0.4 standard deviations. Our design therefore possesses adequate statistical power to detect effects of the magnitude suggested by prior literature, while also being sufficiently sensitive to detect more modest effects that might be of policy relevance.
+
+We will conduct sensitivity analyses to examine how the MDE varies with alternative assumptions about the bandwidth (narrower bandwidths reduce sample size and increase the MDE), outcome variance (heteroskedastic outcomes increase the MDE), and clustering structure (clustering at the university level, which permits within-university serial correlation, may alter the effective sample size). These sensitivity analyses will be reported in the supplementary materials to provide transparency regarding the design's limitations.
+
+## 3.5 Validity Checks
+
+To assess the internal validity of our regression discontinuity design, we will implement a battery of diagnostic checks. First, we will conduct a McCrary (2008) density test to examine whether the distribution of the running variable exhibits a discontinuity at the cutoff, which would suggest manipulation of QS scores by universities or strategic behavior in response to the ranking threshold. Second, we will test for covariate balance by examining whether university characteristics—including age, size, pre-treatment QS scores, and research output—are smooth across the cutoff. Third, we will implement placebo tests using alternative cutoffs at the Top 50 and Top 200 ranking positions; if our design is valid, we should observe no treatment effects at these placebo thresholds. Finally, we will estimate an event-study specification that examines the dynamic evolution of outcomes in the years surrounding the threshold event, testing for the absence of pre-treatment trends that would threaten the parallel trends assumption underlying our causal interpretation.

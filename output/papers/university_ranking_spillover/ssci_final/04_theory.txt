@@ -1,0 +1,40 @@
+# Theoretical Framework
+
+## Institutional Isomorphism and Ranking-Driven Convergence
+
+The global proliferation of university ranking systems has fundamentally altered the competitive landscape of higher education. DiMaggio and Powell's (1983) seminal theory of institutional isomorphism provides a powerful lens for understanding how organizations respond to environmental uncertainty and external evaluation. Rankings, as highly visible and consequential evaluative instruments, generate precisely the conditions that precipitate mimetic isomorphism: organizations face ambiguous production functions, uncertain quality signals, and pressure to conform to externally validated models of excellence. When a peer institution crosses a salient status threshold—such as entering the global Top 100—it becomes a template for legitimate organizational form and strategy. This isomorphic pressure operates through three channels: coercive (government funding tied to ranking performance), mimetic (modeling successful peers under uncertainty), and normative (professional networks disseminating "best practices" associated with high-ranked institutions).
+
+The higher education literature has extensively documented the pervasive influence of rankings on institutional behavior. Hazelkorn (2015) demonstrates that rankings shape strategic priorities, resource allocation, and even faculty hiring decisions across diverse national contexts. Marginson (2006) argues that rankings have created a global status hierarchy that transcends national systems, positioning universities within a competitive field where positional goods—prestige, selectivity, and reputation—are paramount. Within this framework, the entry of a peer institution into the Top 100 represents a discrete, observable event that recalibrates the competitive environment for all institutions in the same country. The mechanism is twofold: first, the ranked institution's success signals that the national system can produce world-class universities, potentially legitimizing the entire sector; second, the same event intensifies competitive pressure on peer institutions to emulate the successful model.
+
+## Status Competition and Positional Dynamics
+
+Marginson's (2006) analysis of status competition in global higher education emphasizes that universities operate within a zero-sum positional market where relative standing matters more than absolute quality. This perspective generates distinctive predictions about spillover effects. When a domestic peer enters the Top 100, the competitive equilibrium shifts: the successful institution captures a larger share of positional goods (elite students, star faculty, research funding, international partnerships), potentially at the expense of proximate competitors. This concentration dynamic is particularly acute for research-intensive outcomes, where resources are finite and prestige is inherently relative. The mechanism parallels status competition dynamics documented in other contexts: Beaman et al. (2012) show that exposure to successful role models can have heterogeneous effects depending on the domain and the observer's position in the status hierarchy.
+
+The status competition framework suggests that spillover effects are not uniformly positive or negative but rather domain-dependent. Market-facing outcomes—international student recruitment, employer reputation, employment outcomes—may benefit from positive brand spillover as the national system's global visibility increases. However, research-intensive outcomes—citations, faculty productivity, research infrastructure—may suffer from concentration effects as the Top 100 institution attracts disproportionate resources and talent. This tension between brand spillover and resource concentration constitutes the theoretical core of our investigation.
+
+## Role Model Effects and Behavioral Transmission
+
+Qin et al. (2026) provide causal evidence that role model effects operate through four distinct mechanisms: aspiration (raising perceived feasibility of success), information (revealing effective strategies), demonstration (providing observable templates for action), and competition (intensifying rivalry through comparison). These mechanisms map directly onto our theoretical framework for ranking spillovers. Table 1 presents this mapping.
+
+**Table 1: Mechanism Mapping Between Role Model Effects and Ranking Spillovers**
+
+| Qin et al. (2026) Mechanism | Ranking Spillover Mechanism | Predicted Outcome Domain |
+|---------------------------|---------------------------|-------------------------|
+| Aspiration | Legitimacy signaling: Top 100 entry raises perceived ceiling for national peers | Market-facing outcomes (international students, employer reputation) |
+| Information | Strategic disclosure: successful institution's practices become observable templates | Administrative and operational outcomes (faculty/student ratio) |
+| Demonstration | Benchmarking: peer institutions adopt visible strategies of the ranked university | Employment outcomes, international recruitment |
+| Competition | Resource concentration: Top 100 institution captures disproportionate positional goods | Research-intensive outcomes (citations, research network) |
+
+This mapping reveals that the four mechanisms are not uniformly directional. Aspiration, information, and demonstration mechanisms generate positive spillovers by raising aspirations, transmitting knowledge, and providing templates. Competition mechanisms, however, generate negative spillovers through resource concentration and intensified rivalry for finite positional goods. The net effect for any given outcome depends on the relative strength of these opposing forces, which in turn depends on the outcome's position in the market-facing versus research-intensive spectrum.
+
+## Hypotheses
+
+Synthesizing these theoretical perspectives, we derive three testable hypotheses:
+
+**H1 (Positive Brand Spillover):** A domestic peer's entry into the global Top 100 generates positive spillover effects on market-facing outcomes of non-ranked universities, including international student enrollment, employer reputation, and employment outcomes. This hypothesis follows from the aspiration and legitimacy mechanisms: the peer's success signals national system quality, raises global visibility, and enhances the positional value of all domestic degrees.
+
+**H2 (Negative Concentration Effect):** The same Top 100 entry generates negative spillover effects on research-intensive outcomes, including citation performance and international research network strength. This hypothesis follows from the competition mechanism: the successful institution attracts disproportionate research funding, star faculty, and international collaborations, concentrating research capacity and intensifying zero-sum competition.
+
+**H3 (Domain-Dependent Net Effects):** The net spillover effect is outcome-domain dependent: positive for market-facing outcomes, negative for research-intensive outcomes, and mixed for intermediate outcomes such as faculty/student ratio and sustainability. This hypothesis follows from the mechanism mapping in Table 1, which predicts that aspiration and information mechanisms dominate for market-facing outcomes while competition mechanisms dominate for research-intensive outcomes.
+
+These hypotheses are tested using a regression discontinuity design exploiting the QS Top 100 threshold, which provides exogenous variation in peer success. The theoretical framework predicts heterogeneous effects across outcome domains, a pattern that would be inconsistent with simple convergence or uniform spillover narratives. Our empirical strategy, detailed in subsequent sections, leverages this domain heterogeneity to identify the underlying mechanisms and to provide the first causal evidence on ranking spillovers in global higher education.

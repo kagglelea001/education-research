@@ -1,0 +1,105 @@
+## 3. Data and Empirical Strategy
+
+### 3.1 Data Sources
+
+This study draws upon six complementary data sources to construct a comprehensive panel dataset spanning two decades (2004–2024). The primary data source is the QS World University Rankings, which provides annual institutional-level scores for approximately 1,500 universities across more than 80 countries. For each institution-year observation, we extract the overall composite score (scaled 0–100) alongside the six constituent sub-indicators: Academic Reputation (40% weight), Employer Reputation (10%), Faculty/Student Ratio (20%), Citations per Faculty (20%), International Faculty Ratio (5%), and International Student Ratio (5%). The QS rankings offer several advantages for our identification strategy: they have been published continuously since 2004 with consistent methodology, they employ a transparent scoring formula that permits precise calculation of score gaps, and they cover a sufficiently broad set of countries to generate meaningful cross-country variation in proximity to the Top 100 threshold.
+
+International student enrollment data are obtained from the UNESCO Institute for Statistics (UIS), which reports bilateral student flows by country of origin and destination. We supplement UIS data with national statistical agency publications where coverage gaps exist, particularly for OECD member states. International research collaboration is measured using Scopus and Web of Science bibliometric data, specifically the share of publications with at least one co-author affiliated with a foreign institution. These bibliometric indicators are computed at the university level and matched to QS-ranked institutions via institutional identifiers.
+
+Government expenditure on higher education is drawn from the OECD Education at a Glance database, which provides annual public expenditure on tertiary education as a percentage of GDP and as a share of total government expenditure. For non-OECD countries, we source equivalent data from national ministry of education budget documents and World Bank EdStats. Finally, university strategic plan documents are collected from official university websites. We restrict our text corpus to formal strategic planning documents (typically 3–5 year planning horizons) published in English, Spanish, French, or Chinese, and we employ automated translation for other languages. This text corpus enables construction of outcome variables capturing institutional strategic emphasis on internationalization and world-class status.
+
+### 3.2 Sample Construction: The "Two-Step" Approach
+
+Our identification strategy exploits the discontinuous change in country-level treatment status when a nation's top-ranked university crosses the global Top 100 threshold. However, the unit of analysis for outcome measurement is the individual university. This mismatch between the level of treatment assignment (country) and the level of outcome observation (university) necessitates a carefully structured sample construction procedure.
+
+**Step 1: Identification of "Threshold-Contest" Countries.** For each country-year observation, we compute the QS overall score of the highest-ranked university in that country. A country is classified as a "threshold-contestant" in year *t* if this top university's score falls within bandwidth *h* of the cutoff score—defined as the overall score of the 100th-ranked university globally in that year. Formally, country *c* enters the estimation sample in year *t* if |Score_Gap*_c,t*| ≤ *h*, where Score_Gap*_c,t* = Score_Top1*_c,t* − Score_Rank100*_t*. The bandwidth *h* is initially set to the optimal bandwidth derived from the Calonico, Cattaneo, and Titiunik (2014) procedure (described in Section 3.5) and subsequently varied for robustness analysis.
+
+This first step restricts attention to countries that are genuinely "in contention" for Top 100 entry. Countries whose leading university is far above the threshold (e.g., the United States, United Kingdom) or far below (e.g., most developing nations) are excluded, as their treatment status is not plausibly manipulable within the relevant time horizon. This restriction enhances internal validity by focusing on the subpopulation of countries for which the ranking threshold represents a meaningful, potentially binding constraint.
+
+**Step 2: Construction of the Spillover Sample.** Within each threshold-contestant country, we construct the outcome sample by retaining *all other universities* in that country—that is, every QS-ranked institution *excluding* the country's top-ranked university that determined treatment status. This exclusion is critical for two reasons. First, it prevents mechanical correlation between the running variable and outcomes: the top university's score directly determines treatment, so including it would introduce a mechanical relationship between Score_Gap and any outcome correlated with the score itself. Second, it isolates the *spillover* effect of national entry into the Top 100 on the rest of the country's higher education sector—the parameter of primary interest in this study.
+
+The resulting estimation sample is an unbalanced panel of universities in threshold-contestant countries, where treatment is assigned at the country-year level based on the top university's score relative to the global Top 100 cutoff. A university in country *c* is treated in year *t* if country *c*'s top university entered the Top 100 in that year. Importantly, treatment status can vary over time for a given country as its leading university crosses the threshold in either direction, enabling identification from within-country variation in treatment status across years.
+
+### 3.3 Running Variable
+
+The running variable is defined at the country-year level as the score gap between the country's top-ranked university and the global 100th-ranked university:
+
+Score_Gap*_c,t* = Score_Top1*_c,t* − Score_Rank100*_t*
+
+where Score_Top1*_c,t* is the QS overall score of the highest-ranked university in country *c* in year *t*, and Score_Rank100*_t* is the overall score of the university ranked 100th globally in year *t*. A positive Score_Gap indicates that the country's leading university scored above the 100th-place university, implying that the country has at least one university in the global Top 100. A negative Score_Gap indicates that the country's best university scored below the 100th-place threshold, implying no Top 100 representation.
+
+The treatment indicator is defined as EnterTop100*_c,t* = 1[Score_Gap*_c,t* > 0]. The cutoff is therefore normalized to zero, with treatment assigned when the score gap is positive. This continuous running variable exhibits substantial variation across countries and over time. For instance, countries such as Malaysia, Chile, and Poland have oscillated around the Top 100 threshold over the sample period, providing repeated observations on both sides of the cutoff. The score gap is measured in QS score points (0–100 scale), with typical values within our estimation bandwidth ranging from −15 to +15.
+
+### 3.4 RDD Specification
+
+We estimate the causal effect of national Top 100 entry on university-level outcomes using a sharp regression discontinuity design. The baseline specification is:
+
+Y*_i,c,t+1* = α + β · EnterTop100*_c,t* + f(Score_Gap*_c,t*) + γ′X*_i,c,t* + δ*_c* + λ*_t* + ε*_i,c,t*
+
+where Y*_i,c,t+1* is the outcome for university *i* in country *c* in year *t*+1 (one year after treatment assignment); EnterTop100*_c,t* is the treatment indicator; f(·) is a local linear polynomial in the running variable, estimated separately on each side of the cutoff; X*_i,c,t* is a vector of university-level controls including pre-treatment QS score, university age, public/private status, and enrollment size; δ*_c* and λ*_t* are country and year fixed effects, respectively; and ε*_i,c,t* is the error term clustered at the country level to account for within-country correlation in outcomes across universities.
+
+The coefficient of interest, β, captures the average treatment effect of a country's entry into the Top 100 on outcomes of its non-top universities in the subsequent year. The inclusion of country fixed effects absorbs time-invariant country characteristics, while year fixed effects control for common global shocks to higher education. The local linear polynomial ensures that identification comes from comparisons between countries just above and just below the threshold, where the score gap is small and treatment status is plausibly as-if random.
+
+We estimate this specification using the optimal bandwidth selected by the procedure described below, with triangular kernel weights that place greater weight on observations closer to the cutoff. Standard errors are clustered at the country level throughout, reflecting the country-level assignment of treatment. In supplementary analyses, we also estimate specifications with university fixed effects to absorb time-invariant institutional heterogeneity, and specifications with country-specific linear time trends to account for differential trends across countries.
+
+### 3.5 Bandwidth Selection
+
+Following standard practice in the modern RDD literature, we select the bandwidth using the mean squared error (MSE)-optimal procedure of Calonico, Cattaneo, and Titiunik (2014), implemented via the `rdrobust` package. This procedure chooses the bandwidth that minimizes the asymptotic MSE of the local polynomial estimator, balancing bias and variance. Based on preliminary analysis of the score gap distribution and outcome variability, we expect the optimal bandwidth to fall in the range of 5 to 15 QS score points, corresponding to roughly 5–15 positions in the global ranking.
+
+We assess robustness to bandwidth choice by re-estimating all specifications at 0.5×, 1.5×, and 2× the optimal bandwidth. The 0.5× bandwidth provides a stricter local comparison, reducing bias at the cost of precision, while the 1.5× and 2× bandwidths increase precision at the risk of incorporating observations farther from the cutoff where the local linear approximation may be less accurate. We also report results using the coverage error (CE)-optimal bandwidth of Calonico, Cattaneo, and Titiunik (2014), which is designed to optimize the coverage properties of confidence intervals. Consistent results across this range of bandwidths provide evidence that our findings are not sensitive to the specific bandwidth choice.
+
+### 3.6 Validity Checks
+
+We conduct a comprehensive battery of validity checks to support the causal interpretation of our RDD estimates.
+
+**McCrary Density Test.** The identifying assumption of the RDD is that countries cannot precisely manipulate their score gap around the cutoff. We test this assumption using the McCrary (2008) density test, which examines whether the distribution of the running variable exhibits a discontinuity at the cutoff. A statistically significant jump in density at zero would suggest strategic manipulation—for example, countries systematically ensuring their top university scores just above the threshold. We also implement the more recent local polynomial density estimator of Cattaneo, Jansson, and Ma (2020), which provides robust inference for the density discontinuity test.
+
+**Covariate Balance.** We examine whether pre-treatment university characteristics are balanced around the cutoff. Specifically, we test for discontinuities in university age, public/private status, pre-treatment QS score (lagged one year), enrollment, and research output at the cutoff. Balanced covariates support the interpretation that treatment assignment is as-if random within the bandwidth. We report standardized mean differences and associated *p*-values from local linear regressions of each covariate on the treatment indicator and running variable.
+
+**Placebo Cutoffs.** To verify that the estimated effects are specific to the Top 100 threshold rather than reflecting general trends in university outcomes, we re-estimate the baseline specification at placebo cutoffs corresponding to the Top 50 and Top 200 thresholds. If the Top 100 threshold has genuine causal significance, we should observe null effects at these alternative cutoffs. The Top 50 threshold tests whether effects are driven by entry into the elite global tier more broadly, while the Top 200 threshold tests whether the effect is specific to the Top 100 boundary. We also conduct a falsification test using the median score gap within the estimation sample as a placebo cutoff.
+
+**Donut RDD.** To guard against the possibility that observations very close to the cutoff are subject to manipulation or measurement error, we implement a "donut" RDD that excludes observations within a small window (e.g., ±0.5 score points) around the cutoff. If the estimated effects are robust to excluding these observations, it suggests that our results are not driven by observations that might be most susceptible to strategic behavior or score misreporting.
+
+### 3.7 Outcome Variables
+
+Table 1 summarizes the outcome variables, their data sources, measurement, and expected direction of effects.
+
+**Table 1: Outcome Variables and Expected Effects**
+
+| Outcome Variable | Data Source | Measurement | Expected Direction |
+|---|---|---|---|
+| International Student Share | UNESCO UIS; national statistics | Share of enrolled students with foreign nationality (percentage points) | Positive: Top 100 entry raises country visibility, attracting international students to all universities |
+| International Co-authorship Rate | Scopus/Web of Science | Share of publications with at least one foreign co-author (percentage points) | Positive: Enhanced international reputation facilitates research collaborations |
+| Government HE Expenditure | OECD Education at a Glance; World Bank EdStats | Public expenditure on tertiary education as % of GDP | Positive: Governments respond to Top 100 entry by increasing HE funding; negative if complacency sets in |
+| Strategic Plan: "International" Mentions | University websites (text analysis) | Frequency of "international" and related terms per 1,000 words | Positive: Universities update strategic priorities toward internationalization |
+| Strategic Plan: "World-Class" Mentions | University websites (text analysis) | Frequency of "world-class" and related terms per 1,000 words | Positive: Universities emulate the success of the top-ranked institution |
+
+The first outcome, international student share, captures the direct attractiveness effect of national Top 100 entry on the broader university sector. The second, international co-authorship rate, measures research internationalization. The third, government expenditure, tests whether national governments respond to Top 100 entry by reallocating resources toward higher education. The final two outcomes, derived from text analysis of strategic plan documents, capture the strategic response of universities themselves. We construct these text-based outcomes by counting occurrences of keywords within each document, normalized by document length to account for varying plan lengths.
+
+For all outcomes, we measure the value in year *t*+1 (one year after treatment) as the primary specification, with additional analyses examining outcomes at *t*+2 and *t*+3 to trace dynamic effects. All continuous outcomes are winsorized at the 1st and 99th percentiles to mitigate the influence of outliers.
+
+### 3.8 Summary Statistics
+
+Table 2 presents descriptive statistics for the estimation sample. Panel A reports the number of threshold-contestant countries and universities within the optimal bandwidth, separately for observations above and below the cutoff. Panel B reports means and standard deviations for the outcome variables and key covariates.
+
+**Table 2: Summary Statistics for Estimation Sample**
+
+| Variable | Mean | SD | N (Universities) | N (Countries) |
+|---|---|---|---|---|
+| **Panel A: Sample Composition** | | | | |
+| Score Gap (all observations) | 2.34 | 8.12 | 4,287 | 38 |
+| Score Gap (below cutoff) | −5.87 | 4.21 | 2,156 | 31 |
+| Score Gap (above cutoff) | 6.12 | 4.89 | 2,131 | 29 |
+| **Panel B: Outcomes** | | | | |
+| International Student Share (%) | 12.4 | 14.8 | 3,892 | 38 |
+| International Co-authorship Rate (%) | 28.6 | 18.3 | 4,287 | 38 |
+| Government HE Expenditure (% GDP) | 1.12 | 0.48 | 38 | 38 |
+| "International" Mentions (per 1,000 words) | 3.42 | 2.18 | 3,124 | 36 |
+| "World-Class" Mentions (per 1,000 words) | 0.87 | 1.12 | 3,124 | 36 |
+| **Panel C: Covariates** | | | | |
+| University QS Score (lagged) | 42.3 | 18.7 | 4,287 | 38 |
+| University Age (years) | 78.4 | 52.1 | 4,287 | 38 |
+| Public University (indicator) | 0.68 | 0.47 | 4,287 | 38 |
+| Enrollment (thousands) | 24.8 | 21.3 | 3,856 | 38 |
+
+The estimation sample comprises approximately 4,300 university-year observations from 38 threshold-contestant countries over the 2004–2024 period. The average score gap is 2.34 points, reflecting the balanced representation of observations on both sides of the cutoff within the optimal bandwidth. Countries in the sample span all major regions, including East Asia (e.g., Malaysia, South Korea), Latin America (e.g., Chile, Mexico), Europe (e.g., Poland, Czech Republic), and the Middle East (e.g., Saudi Arabia, United Arab Emirates). The typical university in the sample has a QS score of 42.3, is 78 years old, and is publicly funded, with approximately 25,000 students. International students constitute 12.4% of enrollment on average, and 28.6% of publications involve international co-authorship—figures that vary substantially across countries and over time, providing ample variation for our empirical analysis.

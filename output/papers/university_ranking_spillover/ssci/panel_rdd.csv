@@ -1,0 +1,308 @@
+year,country,top_uni,top_rank,score_gap,entered
+2017,United States,Massachusetts Institute of Technology (MIT) ,1,36.9,1
+2017,United Kingdom,University of Cambridge,4,34.1,1
+2017,Switzerland,ETH Zurich - Swiss Federal Institute of Technology,8,31.1,1
+2017,Singapore,National University of Singapore (NUS),12,28.4,1
+2017,Australia,The Australian National University,22,24.2,1
+2017,Hong Kong SAR,The University of Hong Kong,27,22.3,1
+2017,Canada,McGill University,30,21.0,1
+2017,France,"Ecole normale supérieure, Paris",33,19.8,1
+2017,Japan,The University of Tokyo,34,19.5,1
+2017,South Korea,Seoul National University,35,19.0,1
+2017,China (Mainland),Peking University,39,18.2,1
+2017,Netherlands,University of Amsterdam,57,11.2,1
+2017,Germany,Technical University of Munich,60,9.3,1
+2017,Sweden,Lund University,73,6.0,1
+2017,Belgium,KU Leuven,79,4.8,1
+2017,New Zealand,The University of Auckland,81,4.2,1
+2017,Finland,University of Helsinki,91,1.6,1
+2017,Russia,Lomonosov Moscow State University,108,-1.0,0
+2017,Denmark,Technical University of Denmark,109,-1.3,0
+2017,Chile,Pontificia Universidad Católica de Chile (UC),147,-8.4,0
+2017,Israel,The Hebrew University of Jerusalem,148,-8.9,0
+2017,Taiwan,National Tsing Hua University,151,-9.2,0
+2017,Saudi Arabia,King Fahd University of Petroleum & Minerals,189,-14.8,0
+2017,Italy,Alma Mater Studiorum - University of Bologna,208,-17.1,0
+2017,India,Indian Institute of Technology Bombay (IITB),219,-18.5,0
+2018,United States,Massachusetts Institute of Technology (MIT) ,1,35.4,1
+2018,United Kingdom,University of Cambridge,5,31.0,1
+2018,Switzerland,ETH Zurich - Swiss Federal Institute of Technology,10,28.7,1
+2018,Singapore,"Nanyang Technological University, Singapore (NTU)",11,27.6,1
+2018,Australia,The Australian National University,20,22.5,1
+2018,China (Mainland),Tsinghua University,25,21.0,1
+2018,Hong Kong SAR,The University of Hong Kong,26,20.9,1
+2018,Canada,University of Toronto,31,19.4,1
+2018,France,"Ecole normale supérieure, Paris",43,15.3,1
+2018,Netherlands,Delft University of Technology,54,11.5,1
+2018,Japan,Tokyo Institute of Technology (Tokyo Tech),56,10.2,1
+2018,Germany,Technical University of Munich,64,7.4,1
+2018,Argentina,Universidad de Buenos Aires (UBA),75,4.5,1
+2018,Ireland,"Trinity College Dublin, The University of Dublin",88,1.1,1
+2018,South Korea,Yonsei University,106,-2.3,0
+2018,Sweden,Uppsala University,112,-3.2,0
+2018,Denmark,Aarhus University,119,-5.3,0
+2018,Brazil,Universidade de São Paulo,121,-5.5,0
+2018,New Zealand,University of Otago,151,-10.4,0
+2018,Austria,University of Vienna,154,-11.3,0
+2018,Spain,Universitat de Barcelona,156,-11.7,0
+2018,Italy,Politecnico di Milano,170,-13.7,0
+2018,India,Indian Institute of Technology Delhi (IITD),172,-13.9,0
+2018,Taiwan,National Cheng Kung University (NCKU),222,-20.3,0
+2018,Malaysia,Universiti Putra Malaysia (UPM),229,-21.0,0
+2018,Finland,University of Turku,276,-25.3,0
+2019,United States,Massachusetts Institute of Technology (MIT) ,1,39.2,1
+2019,United Kingdom,University of Oxford,5,36.0,1
+2019,Switzerland,ETH Zurich - Swiss Federal Institute of Technology,7,34.5,1
+2019,Singapore,National University of Singapore (NUS),11,31.2,1
+2019,China (Mainland),Tsinghua University,17,26.4,1
+2019,Japan,The University of Tokyo,23,24.5,1
+2019,Australia,The Australian National University,24,23.6,1
+2019,Hong Kong SAR,The University of Hong Kong,25,23.5,1
+2019,Canada,University of Toronto,28,22.2,1
+2019,South Korea,Seoul National University,36,19.8,1
+2019,France,Université PSL,50,14.3,1
+2019,Netherlands,Delft University of Technology,52,12.5,1
+2019,Germany,Technical University of Munich,61,9.2,1
+2019,Taiwan,National Taiwan University (NTU),72,5.5,1
+2019,Belgium,KU Leuven,81,2.6,1
+2019,New Zealand,The University of Auckland,85,2.0,1
+2019,Russia,Lomonosov Moscow State University,90,1.5,1
+2019,Sweden,Lund University,92,1.3,1
+2019,Finland,University of Helsinki,110,-2.9,0
+2019,Mexico,Universidad Nacional Autónoma de México  (UNAM),113,-4.0,0
+2019,Brazil,Universidade de São Paulo,118,-5.3,0
+2019,Norway,University of Oslo,135,-8.9,0
+2019,Spain,Universidad Autónoma de Madrid,159,-12.3,0
+2019,India,Indian Institute of Technology Bombay (IITB),162,-12.6,0
+2019,Italy,Sant'Anna - Scuola Universitaria Superiore Pisa,167,-13.1,0
+2019,Saudi Arabia,King Fahd University of Petroleum & Minerals,189,-15.7,0
+2019,Malaysia,Universiti Putra Malaysia (UPM),202,-17.0,0
+2019,Kazakhstan,Al-Farabi Kazakh National University,220,-19.5,0
+2019,Israel,Tel Aviv University,230,-20.5,0
+2019,Thailand,Chulalongkorn University,271,-24.5,0
+2020,United States,Massachusetts Institute of Technology (MIT) ,1,40.1,1
+2020,United Kingdom,University of Oxford,4,37.3,1
+2020,Switzerland,ETH Zurich - Swiss Federal Institute of Technology,6,36.0,1
+2020,Singapore,"Nanyang Technological University, Singapore (NTU)",11,31.9,1
+2020,China (Mainland),Tsinghua University,16,28.7,1
+2020,Japan,The University of Tokyo,22,24.4,1
+2020,Hong Kong SAR,The University of Hong Kong,25,23.9,1
+2020,Australia,The Australian National University,29,22.2,1
+2020,Canada,University of Toronto,29,22.2,1
+2020,South Korea,Seoul National University,37,19.7,1
+2020,Netherlands,Delft University of Technology,50,14.3,1
+2020,France,Université PSL,53,13.5,1
+2020,Germany,Technical University of Munich,55,12.4,1
+2020,Taiwan,National Taiwan University (NTU),69,7.4,1
+2020,Malaysia,Universiti Malaya (UM),70,7.2,1
+2020,Argentina,Universidad de Buenos Aires (UBA),74,6.1,1
+2020,Belgium,KU Leuven,80,4.2,1
+2020,Russia,Lomonosov Moscow State University,84,3.3,1
+2020,Sweden,Lund University,92,1.9,1
+2020,Mexico,Universidad Nacional Autónoma de México  (UNAM),103,-1.1,0
+2020,Finland,University of Helsinki,107,-1.5,0
+2020,Ireland,"Trinity College Dublin, The University of Dublin",108,-1.6,0
+2020,Denmark,Technical University of Denmark,112,-2.5,0
+2020,Brazil,Universidade de São Paulo,116,-4.4,0
+2020,Norway,University of Oslo,119,-5.2,0
+2020,Chile,Pontificia Universidad Católica de Chile (UC),127,-6.5,0
+2020,Italy,Politecnico di Milano,149,-9.5,0
+2020,India,Indian Institute of Technology Bombay (IITB),152,-10.5,0
+2020,Austria,University of Vienna,154,-10.9,0
+2020,Israel,The Hebrew University of Jerusalem,162,-11.7,0
+2020,Spain,Universitat de Barcelona,165,-12.0,0
+2020,New Zealand,University of Otago,176,-13.2,0
+2020,Saudi Arabia,King Abdulaziz University (KAU),186,-14.7,0
+2020,South Africa,University of Cape Town,198,-15.8,0
+2020,Kazakhstan,Al-Farabi Kazakh National University,207,-16.8,0
+2020,Colombia,Universidad de los Andes,234,-20.3,0
+2020,Thailand,Chulalongkorn University,247,-21.6,0
+2020,United Arab Emirates,Khalifa University of Science and Technology,268,-23.4,0
+2020,Czech Republic,Charles University,291,-25.1,0
+2020,Indonesia,Universitas Indonesia,296,-25.2,0
+2020,Brunei,Universiti Brunei Darussalam (UBD),298,-25.3,0
+2020,Poland,Jagiellonian University,338,-28.0,0
+2020,Portugal,University of Lisbon ,338,-28.0,0
+2020,Pakistan,Pakistan Institute of Engineering and Applied Sciences (PIEAS),375,-30.7,0
+2020,"Iran, Islamic Republic of",Sharif University of Technology,407,-31.9,0
+2021,United States,Massachusetts Institute of Technology (MIT) ,1,41.2,1
+2021,United Kingdom,University of Oxford,5,37.9,1
+2021,Switzerland,ETH Zurich - Swiss Federal Institute of Technology,6,36.2,1
+2021,Singapore,National University of Singapore (NUS),11,32.7,1
+2021,China (Mainland),Tsinghua University,15,30.4,1
+2021,Hong Kong SAR,The University of Hong Kong,22,24.9,1
+2021,Japan,The University of Tokyo,24,24.4,1
+2021,Canada,University of Toronto,25,23.9,1
+2021,Australia,The Australian National University,31,21.2,1
+2021,South Korea,Seoul National University,37,20.2,1
+2021,Germany,Technical University of Munich,50,14.8,1
+2021,France,Université PSL,52,14.5,1
+2021,Netherlands,Delft University of Technology,57,11.9,1
+2021,Malaysia,Universiti Malaya (UM),59,11.3,1
+2021,Taiwan,National Taiwan University (NTU),66,8.7,1
+2021,Argentina,Universidad de Buenos Aires (UBA),66,8.7,1
+2021,Russia,Lomonosov Moscow State University,74,7.1,1
+2021,Denmark,University of Copenhagen,76,6.7,1
+2021,New Zealand,The University of Auckland,81,5.2,1
+2021,Belgium,KU Leuven,84,4.2,1
+2021,Sweden,Lund University,97,1.4,1
+2021,Mexico,Universidad Nacional Autónoma de México  (UNAM),100,0.0,1
+2021,Ireland,"Trinity College Dublin, The University of Dublin",101,-0.4,0
+2021,Finland,University of Helsinki,104,-1.2,0
+2021,Norway,University of Oslo,113,-3.6,0
+2021,Brazil,Universidade de São Paulo,115,-4.0,0
+2021,Chile,Pontificia Universidad Católica de Chile (UC),121,-5.0,0
+2021,Italy,Politecnico di Milano,137,-6.4,0
+2021,Saudi Arabia,King Abdulaziz University (KAU),143,-7.1,0
+2021,Austria,University of Vienna,150,-8.5,0
+2021,Kazakhstan,Al-Farabi Kazakh National University,165,-11.9,0
+2021,India,Indian Institute of Technology Bombay (IITB),172,-12.8,0
+2021,Israel,The Hebrew University of Jerusalem,177,-13.1,0
+2021,Spain,Universitat de Barcelona,183,-13.4,0
+2021,Thailand,Chulalongkorn University,208,-17.2,0
+2021,United Arab Emirates,Khalifa University,211,-17.6,0
+2021,South Africa,University of Cape Town,220,-18.4,0
+2021,Colombia,Universidad de los Andes,227,-19.2,0
+2021,Indonesia,Gadjah Mada University,254,-21.4,0
+2021,Brunei,Universiti Brunei Darussalam (UBD),254,-21.4,0
+2021,Czech Republic,Charles University,260,-22.1,0
+2021,Poland,University of Warsaw ,321,-26.5,0
+2021,Pakistan,National University of Sciences And Technology (NUST) Islamabad,355,-28.3,0
+2021,Portugal,University of Lisbon ,357,-28.6,0
+2021,"Iran, Islamic Republic of",Sharif University of Technology,409,-31.2,0
+2021,Uruguay,Universidad ORT Uruguay,462,-33.5,0
+2022,United States,Massachusetts Institute of Technology (MIT) ,1,40.4,1
+2022,United Kingdom,University of Oxford,2,39.9,1
+2022,Singapore,National University of Singapore (NUS),11,34.3,1
+2022,China (Mainland),Tsinghua University,17,29.4,1
+2022,Hong Kong SAR,The University of Hong Kong,22,26.7,1
+2022,Canada,University of Toronto,26,25.7,1
+2022,Japan,Kyoto University,33,22.7,1
+2022,South Korea,Seoul National University,36,22.1,1
+2022,Australia,The University of Melbourne,37,21.8,1
+2022,France,Université PSL,44,18.0,1
+2022,Netherlands,University of Amsterdam,55,14.2,1
+2022,Germany,Ruprecht-Karls-Universität Heidelberg,63,11.2,1
+2022,Malaysia,Universiti Malaya (UM),65,10.2,1
+2022,Sweden,Lund University,87,4.2,1
+2022,Denmark,Technical University of Denmark,99,0.3,1
+2022,Norway,University of Oslo,102,-0.6,0
+2022,Finland,University of Helsinki,104,-1.1,0
+2022,Switzerland,University of Bern,119,-3.5,0
+2022,Belgium,Ghent University,141,-7.0,0
+2022,Italy,Politecnico di Milano,142,-7.1,0
+2022,Kazakhstan,Al-Farabi Kazakh National University,175,-12.8,0
+2022,India,Indian Institute of Technology Delhi (IITD),185,-13.7,0
+2022,Spain,Complutense University of Madrid,223,-18.8,0
+2022,New Zealand,University of Canterbury | Te Whare Wānanga o Waitaha,258,-21.9,0
+2025,United States,Massachusetts Institute of Technology (MIT) ,1,40.4,1
+2025,United Kingdom,Imperial College London,2,38.9,1
+2025,Switzerland,ETH Zurich - Swiss Federal Institute of Technology,7,34.3,1
+2025,Singapore,National University of Singapore (NUS),8,34.1,1
+2025,Australia,The University of Melbourne,13,29.3,1
+2025,China (Mainland),Peking University,14,28.9,1
+2025,Hong Kong SAR,The University of Hong Kong,17,28.0,1
+2025,France,Université PSL,24,25.1,1
+2025,Canada,University of Toronto,25,24.5,1
+2025,Germany,Technical University of Munich,28,23.6,1
+2025,South Korea,Seoul National University,31,22.7,1
+2025,Japan,The University of Tokyo,32,22.5,1
+2025,Netherlands,Delft University of Technology,49,17.4,1
+2025,Malaysia,Universiti Malaya (UM),60,11.6,1
+2025,Belgium,KU Leuven,63,10.7,1
+2025,New Zealand,The University of Auckland,65,10.1,1
+2025,Taiwan,National Taiwan University (NTU),68,9.1,1
+2025,Argentina,Universidad de Buenos Aires (UBA),71,8.0,1
+2025,Sweden,KTH Royal Institute of Technology ,74,6.1,1
+2025,Ireland,"Trinity College Dublin, The University of Dublin",87,3.3,1
+2025,Brazil,Universidade de São Paulo,92,2.0,1
+2025,Chile,Pontificia Universidad Católica de Chile (UC),93,1.9,1
+2025,Russia,Lomonosov Moscow State University,94,1.8,1
+2025,Mexico,Universidad Nacional Autónoma de México (UNAM),94,1.8,1
+2025,Denmark,University of Copenhagen,100,0.0,1
+2025,Saudi Arabia,King Fahd University of Petroleum & Minerals,101,-0.1,0
+2025,Italy,Politecnico di Milano,111,-1.4,0
+2025,Finland,Aalto University,113,-1.7,0
+2025,India,Indian Institute of Technology Bombay (IITB),118,-3.3,0
+2025,Norway,University of Oslo,119,-3.5,0
+2025,Qatar,Qatar University,122,-3.9,0
+2025,Austria,University of Vienna,137,-5.7,0
+2025,Kazakhstan,Al-Farabi Kazakh National University,163,-8.6,0
+2025,Spain,Complutense University of Madrid,164,-8.7,0
+2025,South Africa,University of Cape Town,171,-9.6,0
+2025,Colombia,Universidad de los Andes,179,-10.9,0
+2025,United Arab Emirates,Khalifa University of Science and Technology,202,-13.5,0
+2025,Indonesia,Universitas Indonesia,206,-13.9,0
+2025,Israel,Tel Aviv University,209,-14.4,0
+2025,Thailand,Chulalongkorn University,229,-16.2,0
+2025,Macau SAR,University of Macau,245,-18.5,0
+2025,Czech Republic,Charles University,246,-18.6,0
+2025,Lebanon,American University of Beirut (AUB),250,-19.0,0
+2025,Poland,University of Warsaw ,258,-19.8,0
+2025,Portugal,University of Lisbon ,260,-20.0,0
+2025,Turkey,Middle East Technical University,285,-22.4,0
+2025,Pakistan,Quaid-i-Azam University,315,-24.8,0
+2025,Greece,National Technical University of Athens,321,-25.4,0
+2025,Philippines,University of the Philippines,336,-26.3,0
+2025,"Iran, Islamic Republic of",Sharif University of Technology,342,-26.6,0
+2025,Egypt,Cairo University,350,-27.1,0
+2025,Jordan,University of Jordan,368,-28.2,0
+2025,Brunei,Universiti Brunei Darussalam (UBD),385,-29.2,0
+2025,Hungary,Eötvös Loránd University,564,-37.5,0
+2026,United States of America,Massachusetts Institute of Technology (MIT),1,31.5,1
+2026,United Kingdom,Imperial College London,2,30.9,1
+2026,Switzerland,ETH Zurich (Swiss Federal Institute of Technology),7,28.2,1
+2026,Singapore,National University of Singapore (NUS),8,27.4,1
+2026,"Hong Kong SAR, China",The University of Hong Kong,11,25.7,1
+2026,China (Mainland),Peking University,14,24.1,1
+2026,Australia,The University of Melbourne,19,22.3,1
+2026,Germany,Technical University of Munich,22,21.7,1
+2026,Canada,McGill University,27,20.4,1
+2026,France,PSL University,28,20.1,1
+2026,Japan,The University of Tokyo,36,17.3,1
+2026,Republic of Korea,Seoul National University,38,17.1,1
+2026,Netherlands,Delft University of Technology,47,15.8,1
+2026,Malaysia,Universiti Malaya (UM),58,11.6,1
+2026,Belgium,KU Leuven,60,11.2,1
+2026,Taiwan,National Taiwan University (NTU),63,10.4,1
+2026,New Zealand,The University of Auckland,65,9.0,1
+2026,Saudi Arabia,King Fahd University of Petroleum & Minerals,67,8.0,1
+2026,Sweden,Lund University,72,7.2,1
+2026,Ireland,"Trinity College Dublin, The University of Dublin",75,5.4,1
+2026,Argentina,Universidad de Buenos Aires,84,3.8,1
+2026,Italy,Politecnico di Milano,98,0.6,1
+2026,Denmark,University of Copenhagen,101,-0.1,0
+2026,Russian Federation,Lomonosov Moscow State University,105,-0.9,0
+2026,Brazil,Universidade de SÃ£o Paulo (USP),108,-1.2,0
+2026,Qatar,Qatar University,112,-2.0,0
+2026,Finland,Aalto University,114,-2.2,0
+2026,Chile,Pontificia Universidad CatÃ³lica de Chile,116,-2.4,0
+2026,Norway,University of Oslo,119,-2.8,0
+2026,India,Indian Institute of Technology Delhi (IITD),123,-3.0,0
+2026,Mexico,Universidad Nacional AutÃ³noma de MÃ©xico (UNAM),136,-4.5,0
+2026,South Africa,University of Cape Town,150,-6.2,0
+2026,Austria,University of Vienna,152,-6.6,0
+2026,Spain,University of Barcelona,160,-7.5,0
+2026,Kazakhstan,Al-Farabi Kazakh National University,166,-8.7,0
+2026,United Arab Emirates,Khalifa University of Science and Technology,177,-9.7,0
+2026,Indonesia,UNIVERSITAS INDONESIA,189,-11.5,0
+2026,Colombia,Universidad de Los Andes Colombia,212,-13.9,0
+2026,Thailand,Chulalongkorn University,221,-14.6,0
+2026,Israel,Tel Aviv University,223,-14.9,0
+2026,Portugal,University of Lisbon,230,-15.6,0
+2026,Lebanon,American University of Beirut (AUB),237,-16.9,0
+2026,Czechia,Charles University,265,-19.5,0
+2026,TÃ¼rkiye,Middle East Technical University,269,-20.0,0
+2026,Poland,University of Warsaw,271,-20.2,0
+2026,"Macao SAR, China",University of Macau,285,-21.5,0
+2026,Iran (Islamic Republic of),University of Tehran,322,-25.2,0
+2026,Jordan,University of Jordan,324,-25.5,0
+2026,Egypt,Cairo University,347,-26.9,0
+2026,Pakistan,Quaid-i-azam University,354,-27.2,0
+2026,Greece,National Technical University of Athens,355,-27.3,0
+2026,Estonia,University of Tartu,362,-27.6,0
+2026,Philippines,University of the Philippines,362,-27.6,0
+2026,Brunei Darussalam,Universiti Brunei Darussalam (UBD),367,-28.0,0
+2026,Cyprus,University of Cyprus,452,-34.3,0
+2026,Viet Nam,Duy Tan University,482,-35.5,0
+2026,Hungary,University of Debrecen,563,-39.1,0

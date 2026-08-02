@@ -1,0 +1,63 @@
+## 七、结论与政策启示
+
+本文利用中国城市主政者任职数据，系统考察了女性领导晋升至城市排名前列对其他城市女性晋升的示范效应。研究结果表明，女性主政者所在城市排名的跃升，显著提高了其他城市女性干部的晋升概率，且这一效应在空间上随距离递减，在时间上具有持续性。本文的核心发现可以概括为：女性领导的“可见成功”不仅是个体层面的突破，更是一种具有强烈外部性的公共品——它通过改变组织内部对女性领导能力的信念，降低了女性干部在晋升评估中面临的“能力怀疑”门槛，从而产生跨城市的正向示范效应。
+
+本文的理论贡献体现在两个层面。第一，我们将性别榜样效应理论从微观个体行为拓展至城市治理与干部选拔领域。既有文献多关注女性榜样对女性教育选择、职业抱负的个体激励作用（Beaman et al., 2012），而本文揭示了一个更为宏观的机制：在组织人事决策中，女性领导的成功具有“信息外部性”，能够修正组织层面对女性领导力的系统性认知偏差。第二，本文为“可见的女性成功”的政治经济学效应提供了来自中国干部体制的新证据。与已有研究关注女性政治参与对公共品供给的影响（Chattopadhyay & Duflo, 2004）不同，本文聚焦于女性晋升本身所释放的信号效应，从而将性别与政治经济学的讨论从“女性做什么”推进至“女性被看见什么”的维度。
+
+本文的政策启示如下。第一，应提高优秀女性主政者的媒体曝光度，系统性地宣传其治理绩效与晋升事迹。示范效应的发挥以“可见性”为前提，若女性领导的成功仅停留在组织内部档案中，其外部性将大打折扣。建议主流媒体设立专栏，定期报道女性主政者在经济发展、社会治理、民生改善等方面的典型案例，使“女性也能治理好城市”成为广泛的社会共识。第二，在干部选拔中应适当考虑性别多样性，形成“选拔—示范—再选拔”的良性循环。本文的实证结果表明，女性领导的出现具有自我强化机制——一个女性主政者的成功能够为更多女性创造晋升机会。组织部门在同等条件下适当向女性干部倾斜，不仅是公平正义的要求，更是释放示范效应、优化干部队伍结构的效率性安排。第三，中西部地区需配套更积极的性别平等政策。本文发现示范效应在东部地区更强，这既可能源于东部地区组织文化更为开放，也可能因为中西部地区女性干部基数不足，导致示范效应的“传导链条”断裂。建议中西部地区在干部培训、挂职交流、后备干部选拔等环节设置女性专项名额，同时加强性别平等意识的组织文化建设。第四，建议建立女性领导干部成功案例数据库，系统收录女性主政者在不同层级、不同区域、不同发展阶段的治理经验与晋升轨迹，作为组织部门干部培训与选拔参考的基础性资源，将个案经验转化为制度性知识。
+
+本文的研究局限亦需坦诚说明。第一，由于干部选拔过程的不透明性，我们未能直接观察组织部门内部的决策过程，对示范效应作用机制的分析主要基于理论推导与间接证据。第二，城市排名与女性晋升之间可能存在内生性——排名靠前的城市可能本身具有更浓厚的性别平等文化，从而同时影响女性晋升概率，尽管我们采用了多期双重差分与事件研究法加以缓解，但仍无法完全排除这一可能。第三，本文无法区分示范效应的具体传导渠道——女性领导的成功究竟是通过改变组织者信念（信号效应）发挥作用，还是通过给组织施加必须提拔女性的外部压力（配额压力）发挥作用。第四，本文聚焦于城市主政者这一特定职位，研究结论能否推广至其他层级与部门，尚需进一步验证。
+
+未来研究可从以下方向拓展：一是利用更细致的干部考核与晋升数据，直接检验信念更新机制；二是考察女性领导示范效应在不同治理领域（如财政、民生、环保）的异质性表现；三是比较中国与其他政治体制下性别示范效应的制度差异，推进比较政治经济学研究。
+
+**参考文献**
+
+[1] Qin, Y., Wang, H., & Zhang, L. Female Leadership and Demonstration Effects: Evidence from Chinese Cities. *Economic Research Journal*, 2026, forthcoming.
+
+[2] Beaman, L., Duflo, E., Pande, R., & Topalova, P. Female Leadership Raises Aspirations and Educational Attainment for Girls: A Policy Experiment in India. *Science*, 2012, 335(6068): 582-586.
+
+[3] Chattopadhyay, R., & Duflo, E. Women as Policy Makers: Evidence from a Randomized Policy Experiment in India. *Econometrica*, 2004, 72(5): 1409-1443.
+
+[4] Bandura, A. *Social Foundations of Thought and Action: A Social Cognitive Theory*. Englewood Cliffs, NJ: Prentice-Hall, 1986.
+
+[5] Sun, L., & Abraham, S. Estimating Dynamic Treatment Effects in Event Studies with Heterogeneous Treatment Effects. *Journal of Econometrics*, 2021, 225(2): 175-199.
+
+[6] Goodman-Bacon, A. Difference-in-Differences with Variation in Treatment Timing. *Journal of Econometrics*, 2021, 225(2): 254-277.
+
+[7] Alesina, A., & La Ferrara, E. Preferences for Redistribution in the Land of Opportunities. *Journal of Public Economics*, 2005, 89(5-6): 897-931.
+
+[8] Bertrand, M., & Duflo, E. Field Experiments on Discrimination. In *Handbook of Economic Field Experiments*, Vol. 1. Amsterdam: North-Holland, 2017: 309-393.
+
+[9] Bhalotra, S., & Clots-Figueras, I. Health and the Political Agency of Women. *American Economic Journal: Economic Policy*, 2014, 6(2): 164-197.
+
+[10] Brollo, F., & Troiano, U. What Happens When a Woman Wins an Election? Evidence from Close Races in Brazil. *Journal of Development Economics*, 2016, 122: 28-45.
+
+[11] Callaway, B., & Sant'Anna, P. H. C. Difference-in-Differences with Multiple Time Periods. *Journal of Econometrics*, 2021, 225(2): 200-230.
+
+[12] De Chaisemartin, C., & D'Haultfœuille, X. Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects. *American Economic Review*, 2020, 110(9): 2964-2996.
+
+[13] Eagly, A. H., & Karau, S. J. Role Congruity Theory of Prejudice Toward Female Leaders. *Psychological Review*, 2002, 109(3): 573-598.
+
+[14] Iyer, L., Mani, A., Mishra, P., & Topalova, P. The Power of Political Voice: Women's Political Representation and Crime in India. *American Economic Journal: Applied Economics*, 2012, 4(4): 165-193.
+
+[15] Jayachandran, S. Social Norms as a Barrier to Women's Employment in Developing Countries. *IMF Economic Review*, 2021, 69(3): 576-595.
+
+[16] Klenke, K. *Women and Leadership: A Contextual Perspective*. New York: Springer, 2011.
+
+[17] Li, H., & Zhou, L.-A. Political Turnover and Economic Performance: The Incentive Role of Personnel Control in China. *Journal of Public Economics*, 2005, 89(9-10): 1743-1762.
+
+[18] Liu, X., & Li, S. Gender Quotas and Female Leadership in China's Bureaucracy. *China Economic Review*, 2023, 78: 101943.
+
+[19] Pande, R., & Ford, D. Gender Quotas and Female Leadership: A Review. *Background Paper for the World Development Report on Gender*, 2012.
+
+[20] Shleifer, A. State versus Private Ownership. *Journal of Economic Perspectives*, 1998, 12(4): 133-150.
+
+[21] Xu, C. The Fundamental Institutions of China's Reforms and Development. *Journal of Economic Literature*, 2011, 49(4): 1076-1151.
+
+[22] 周黎安. 中国地方官员的晋升锦标赛模式研究. 经济研究, 2007(7): 36-50.
+
+[23] 张军, 高远. 官员任期、异地交流与经济增长. 经济研究, 2007(11): 91-103.
+
+[24] 刘冲, 刘明明. 女性领导干部晋升的影响因素研究. 中国行政管理, 2021(5): 76-84.
+
+[25] 陈钊, 徐彤. 性别比例与女性劳动参与. 经济研究, 2020, 55(3): 129-145.

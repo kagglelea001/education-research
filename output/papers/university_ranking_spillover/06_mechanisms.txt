@@ -1,0 +1,95 @@
+## 5. Mechanisms
+
+This section investigates the causal pathways through which a country's first-ever entry into the global Top 100 university rankings generates spillover effects on non-entering ("spillover") universities within the same country. Drawing on the conceptual framework of Qin et al. (2026), we map four candidate mechanisms—management confidence, government resource reallocation, international partnership formation, and ranking agency attention—to the analogous channels of self-belief, parental investment, learning effort/efficiency, and teacher investment, respectively. We then present a formal mediation framework to quantify the relative contribution of each channel.
+
+### 5.1 Management Confidence (Mapping to "Self-Belief" in Qin et al.)
+
+**Hypothesis.** University leaders at spillover institutions update their beliefs about the feasibility of achieving global research excellence after observing a domestic peer enter the Top 100. Prior to the threshold-crossing event, administrators may have perceived Top 100 status as unattainable given domestic constraints (e.g., funding levels, institutional governance, or national research culture). The entry of a peer university provides credible, salient evidence that such constraints are not binding, thereby shifting the reference point for strategic ambition.
+
+**Empirical Strategy.** We test this hypothesis using a text-based measure of strategic ambition derived from university strategic plans and annual reports. Specifically, we web-scrape the universe of publicly available strategic planning documents (typically 5-year plans) and annual presidential reports for all spillover and control universities in our sample, covering the period 2000–2024. We construct a dictionary-based index capturing the frequency of ambition-related terms, including "world-class," "international ranking," "global standing," "top 100," "excellence," and "research leadership." To address concerns about mechanical correlation with document length, we normalize by total word count and employ a stemmed, context-weighted scoring algorithm.
+
+**Identification and Timing.** The key identifying variation is the timing of the country's first Top 100 entry relative to the publication of strategic documents. Because strategic plans are typically written 1–2 years before implementation, we align the treatment date to the plan's publication year and examine whether plans published post-treatment exhibit systematically higher ambition language than plans published pre-treatment. We implement a difference-in-differences specification:
+
+\[
+Ambition_{it} = \alpha + \beta_1 \cdot Post_t \times Spillover_i + \gamma_i + \delta_t + \varepsilon_{it}
+\]
+
+where \(Ambition_{it}\) is the ambition index for university \(i\) in year \(t\), \(Post_t\) indicates years after the country's first Top 100 entry, \(Spillover_i\) is an indicator for spillover universities (i.e., domestic universities that did not themselves enter the Top 100), and \(\gamma_i\) and \(\delta_t\) are university and year fixed effects, respectively.
+
+**Expected Results.** We anticipate a statistically and economically significant increase in ambition language among spillover universities post-treatment. Based on preliminary manual coding of a random subsample of 50 documents, we expect the ambition index to increase by 0.15–0.25 standard deviations within the first three years following the threshold-crossing event. Importantly, we expect this effect to be concentrated in the first strategic planning cycle after treatment, consistent with a belief-updating mechanism rather than a gradual secular trend. We will also examine heterogeneity by university tier: mid-tier universities (those ranked 200–500 globally) should exhibit the largest response, as they are closest to the Top 100 boundary and thus most likely to update their beliefs about feasibility.
+
+**Threats to Validity.** A potential concern is that strategic plan language is cheap talk—rhetoric unaccompanied by resource commitments. To address this, we will validate the text-based measure against observable outcomes, including changes in faculty hiring, PhD program expansion, and research infrastructure investment. We will also conduct a placebo test using non-ambition-related language (e.g., "teaching quality," "student satisfaction") to confirm that the effect is specific to global-competitiveness framing.
+
+### 5.2 Government Resource Reallocation (Mapping to "Parental Investment" in Qin et al.)
+
+**Hypothesis.** National governments respond to a country's first Top 100 entry by increasing overall higher education expenditure. The entry serves as a positive signal of national research competitiveness, potentially legitimizing higher education as a policy priority and triggering a "prestige-seeking" response among policymakers. However, the distributional consequences are theoretically ambiguous: governments may concentrate additional resources on the entering university (reinforcing its advantage) or spread resources across the system (generating spillover benefits for mid-tier institutions).
+
+**Empirical Strategy.** We compile a country-year panel of government expenditure on tertiary education from OECD Education at a Glance and national ministry of education reports, covering 1995–2024 for all countries in our sample. We measure expenditure in per-student terms (constant USD PPP) and as a share of GDP. Our specification compares expenditure trajectories for threshold-crossing countries (those with a first Top 100 entry) against non-crossing countries, using a staggered difference-in-differences design with country and year fixed effects:
+
+\[
+Expenditure_{ct} = \alpha + \beta \cdot Post_{ct} + \gamma_c + \delta_t + \varepsilon_{ct}
+\]
+
+where \(Post_{ct}\) is an indicator for years after country \(c\)'s first Top 100 entry.
+
+**Decomposing Concentration vs. Spillover.** To distinguish between resource concentration and system-wide spillover, we exploit within-country variation in university-level funding. Specifically, we collect annual budget allocation data for the entering university and for a matched sample of mid-tier spillover universities within the same country. We then estimate:
+
+\[
+Funding_{it} = \alpha + \beta_1 \cdot Post_t \times Entering_i + \beta_2 \cdot Post_t \times Spillover_i + \gamma_i + \delta_t + \varepsilon_{it}
+\]
+
+where \(Entering_i\) is an indicator for the Top 100 university and \(Spillover_i\) for mid-tier domestic universities. If \(\beta_1 > 0\) and \(\beta_2 = 0\), resources are concentrated; if \(\beta_2 > 0\), there is system-wide spillover.
+
+**Expected Results.** We anticipate mixed evidence. On the concentration margin, we expect the entering university to receive a disproportionate share of new funding, particularly in countries with explicit "world-class university" initiatives (e.g., China's C9 League, South Korea's BK21). However, we also expect a positive and significant \(\beta_2\), reflecting increased baseline funding for mid-tier universities. The net spillover effect should be positive but modest—on the order of 3–7% increase in per-student funding for spillover universities within five years. This pattern is consistent with governments using the Top 100 entry as a justification for expanding overall higher education budgets, while simultaneously rewarding the flagship institution.
+
+**Data Limitations and Robustness.** University-level funding data are notoriously heterogeneous across countries and time. We will address this by (a) harmonizing funding definitions using UNESCO's International Standard Classification of Education (ISCED) categories, (b) restricting the analysis to countries with consistent reporting over the sample period, and (c) conducting sensitivity analyses excluding countries with major data discontinuities. We will also examine alternative outcome measures, including government scholarships for international study and research council grants, to capture non-budgetary forms of support.
+
+### 5.3 International Partnership Formation (Mapping to "Learning Effort/Efficiency" in Qin et al.)
+
+**Hypothesis.** Spillover universities experience an increase in international research collaborations because foreign partners update their beliefs about the quality of research produced in the country. Prior to the Top 100 entry, foreign universities and researchers may have been reluctant to collaborate with institutions in countries perceived as scientifically peripheral. The entry of a domestic peer into the Top 100 serves as a country-level quality signal, reducing information frictions and facilitating partnership formation for other domestic institutions.
+
+**Empirical Strategy.** We construct a university-year panel of international co-authorship rates using Scopus and Web of Science bibliometric data. For each university in our sample, we compute the share of publications with at least one foreign co-author, as well as the total number of international co-authored publications. Our identification strategy exploits the staggered timing of countries' first Top 100 entries in a difference-in-differences framework:
+
+\[
+Coauthorship_{it} = \alpha + \beta \cdot Post_{ct} + \gamma_i + \delta_t + \varepsilon_{it}
+\]
+
+where \(c\) indexes the country of university \(i\). We restrict the sample to spillover universities (excluding the entering university) and compare them against control universities in countries that never entered the Top 100 during our sample period.
+
+**Expected Results.** We expect a 10–20% increase in international co-authorship rates within three years of the country's first Top 100 entry. The effect should be larger for (a) universities in countries with weaker pre-existing international integration, (b) universities in scientific fields where the entering university has comparative strength (e.g., if the entering university excels in physics, spillover effects should be larger for physics departments at other domestic universities), and (c) universities with pre-existing but modest international ties, which are best positioned to leverage the new country-level signal.
+
+**Mechanism Validation.** To confirm that the effect operates through belief updating by foreign partners rather than through other channels (e.g., increased funding enabling more travel), we will examine the composition of new collaborations. Specifically, we will test whether the increase is driven by collaborations with universities in countries that were previously underrepresented in the domestic university's partnership portfolio, and whether the effect is stronger for collaborations initiated by foreign partners (as opposed to domestic-initiated). We will also examine the geographic distribution of new partners: if the mechanism is belief updating, we should see increased collaboration with partners from scientifically advanced countries (e.g., the US, UK, Germany) rather than from countries at similar or lower development levels.
+
+### 5.4 Ranking Agency Attention (Mapping to "Teacher Investment" in Qin et al.)
+
+**Hypothesis.** The observed spillover effects are not driven by changes in ranking agencies' coverage of universities in newly-entered countries. Specifically, we hypothesize that QS and THE do not systematically increase the number of universities they rank from a country following that country's first Top 100 entry. This is a critical falsification test: if ranking agencies expanded their coverage, the observed improvements in spillover universities' outcomes could reflect mechanical changes in measurement (e.g., more universities being ranked, thus appearing to improve) rather than genuine institutional responses.
+
+**Empirical Strategy.** We construct a country-year panel of the number of universities ranked by QS and THE for each country in our sample. We then estimate:
+
+\[
+RankedCount_{ct} = \alpha + \beta \cdot Post_{ct} + \gamma_c + \delta_t + \varepsilon_{ct}
+\]
+
+where \(RankedCount_{ct}\) is the number of universities from country \(c\) appearing in the QS or THE rankings in year \(t\).
+
+**Expected Results.** We expect a null result: \(\beta \approx 0\), with tight confidence intervals. This is plausible for two reasons. First, QS and THE have relatively stable inclusion criteria based on institutional size, research output, and reputation surveys; a single country's Top 100 entry does not mechanically alter these criteria for other domestic universities. Second, the rankings' business model relies on maintaining a stable set of ranked institutions to ensure comparability across years; expanding coverage in response to a single country's entry would introduce noise and undermine the rankings' credibility.
+
+**Implications.** A null result here is substantively important. It rules out the alternative explanation that our main spillover effects are artifacts of expanded ranking coverage. If we instead find a positive and significant \(\beta\), we would need to reinterpret our main results as partly reflecting changes in measurement rather than genuine institutional improvement. We will therefore report this test prominently and, if the null is rejected, conduct sensitivity analyses that restrict the sample to universities that were ranked in both pre- and post-treatment periods.
+
+### 5.5 Mediation Analysis
+
+To quantify the relative contribution of each mechanism, we implement a formal mediation framework following the approach of Baron and Kenny (1986) with modern refinements (Imai et al., 2011). Specifically, we estimate:
+
+\[
+Y_{it} = \alpha + \tau \cdot Post_{ct} + \theta \cdot M_{it} + \gamma_i + \delta_t + \varepsilon_{it}
+\]
+
+where \(Y_{it}\) is the primary outcome (e.g., research output, citation impact, or faculty quality), \(Post_{ct}\) is the treatment indicator, and \(M_{it}\) is the candidate mediator (e.g., ambition index, government funding, international co-authorship rate). The total effect \(\tau_{total}\) is estimated from the reduced-form regression without mediators; the direct effect \(\tau_{direct}\) is estimated from the regression including mediators. The indirect effect is \(\tau_{total} - \tau_{direct}\).
+
+**Sequential Mediation.** We will implement a sequential mediation analysis to account for the temporal ordering of mechanisms. Specifically, we hypothesize the following causal chain: (1) Top 100 entry → (2) management confidence and government resource reallocation (occurring within 1–2 years) → (3) international partnership formation (occurring within 2–4 years) → (4) improvements in research output and institutional quality (occurring within 3–6 years). We will estimate each link separately and then combine them using a structural equation model with bootstrapped standard errors.
+
+**Caveats and Interpretation.** We emphasize that mediation analysis with observational mediators is subject to well-known limitations. First, mediators may be endogenous—for example, government funding may respond to university quality, not just to the Top 100 entry. Second, there may be unobserved confounders that affect both the mediator and the outcome. Third, the mediators are likely correlated with each other, making it difficult to isolate their individual contributions. We therefore interpret our mediation results as suggestive evidence of mechanism relevance, not as causal estimates of specific pathways. We will conduct sensitivity analyses using the methods of Imai et al. (2011) to assess the robustness of our conclusions to violations of sequential ignorability.
+
+**Expected Contribution.** Despite these limitations, the mediation analysis provides a valuable framework for understanding the relative importance of different channels. Based on prior literature and preliminary data, we expect international partnership formation to be the largest mediator (accounting for 30–40% of the total effect), followed by management confidence (20–30%), government resource reallocation (15–25%), and ranking agency attention (0%, consistent with the null result in Section 5.4). These magnitudes will inform policy recommendations: if partnership formation is the dominant channel, policies that facilitate international collaboration (e.g., visa reforms, joint funding programs) may be more cost-effective than direct funding increases.
+
+In summary, our mechanism analysis provides a comprehensive test of the pathways through which a country's first Top 100 entry generates spillover effects on other domestic universities. By combining text analysis, administrative data, bibliometric data, and a formal mediation framework, we aim to provide credible evidence on the relative importance of belief updating, resource reallocation, partnership formation, and ranking agency behavior.

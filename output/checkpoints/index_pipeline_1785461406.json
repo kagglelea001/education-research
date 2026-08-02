@@ -1,0 +1,40 @@
+{
+  "pipeline_id": "pipeline_1785461406",
+  "checkpoints": [
+    {
+      "id": "pipeline_1785461406_1785461460008095",
+      "path": "output\\checkpoints\\checkpoint_pipeline_1785461406_1785461460008095.json",
+      "timestamp": 1785461460.008095,
+      "completed_stage": "review",
+      "completed_stage_index": -1
+    },
+    {
+      "id": "pipeline_1785461406_1785461459966644",
+      "path": "output\\checkpoints\\checkpoint_pipeline_1785461406_1785461459966644.json",
+      "timestamp": 1785461459.9666445,
+      "completed_stage": "writing",
+      "completed_stage_index": -1
+    },
+    {
+      "id": "pipeline_1785461406_1785461459937852",
+      "path": "output\\checkpoints\\checkpoint_pipeline_1785461406_1785461459937852.json",
+      "timestamp": 1785461459.9378521,
+      "completed_stage": "plotting",
+      "completed_stage_index": -1
+    },
+    {
+      "id": "pipeline_1785461406_1785461459911936",
+      "path": "output\\checkpoints\\checkpoint_pipeline_1785461406_1785461459911936.json",
+      "timestamp": 1785461459.911936,
+      "completed_stage": "literature_review",
+      "completed_stage_index": -1
+    },
+    {
+      "id": "pipeline_1785461406_1785461459881797",
+      "path": "output\\checkpoints\\checkpoint_pipeline_1785461406_1785461459881797.json",
+      "timestamp": 1785461459.8817973,
+      "completed_stage": "outline",
+      "completed_stage_index": -1
+    }
+  ]
+}

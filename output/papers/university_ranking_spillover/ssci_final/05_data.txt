@@ -1,0 +1,25 @@
+## Data
+
+### Sample Construction
+
+Our empirical analysis draws on a comprehensive panel of global university rankings spanning 2017–2026. The primary dataset comprises 3,063 university-year observations from the QS World University Rankings, covering 85 countries over eight ranking cycles. This panel structure enables us to exploit both cross-sectional variation in proximity to the Top 100 threshold and temporal variation in ranking outcomes. For our regression discontinuity design (RDD), we aggregate university-level data to the country-year level, yielding 307 country-year observations. This aggregation is theoretically motivated: ranking spillovers—the focus of our study—operate at the level of national higher education systems, where the presence of a Top 100 institution may reshape the competitive landscape, policy priorities, and resource allocation for peer universities within the same country.
+
+The QS rankings provide nine disaggregated sub-scores that serve as our outcome variables: Academic Reputation, Employer Reputation, Faculty/Student Ratio, Citations per Faculty, International Faculty, International Students, International Research Network, Employment Outcomes, and Sustainability. These dimensions capture distinct facets of institutional performance, allowing us to trace the heterogeneous effects of ranking spillovers across different domains of university activity. Importantly, the sub-scores are normalized on a 0–100 scale, facilitating meaningful comparisons across institutions, countries, and time periods.
+
+### Cross-System Comparison and Validity Checks
+
+To assess the robustness and generalizability of our findings, we considered two alternative ranking systems: the Times Higher Education (THE) World University Rankings (2011–2016) and the Academic Ranking of World Universities (ARWU, 2004–2023). However, both systems fail critical validity requirements for causal identification and are therefore excluded from our primary analysis.
+
+First, the THE rankings exhibit severe manipulation of the running variable. Applying McCrary's (2008) density test to the THE data yields a discontinuity estimate of 53.5% at the Top 100 threshold, indicating substantial non-random sorting of universities around the cutoff. This magnitude far exceeds conventional thresholds for detecting manipulation and suggests that the assignment variable—and hence treatment status—is not as-if random in the THE system. Consequently, any RDD estimates derived from THE data would be biased by endogenous sorting, rendering causal inference untenable.
+
+Second, the ARWU rankings display zero variation in treatment status across countries. In every country-year observation in our ARWU sample, at least one university appears in the Top 100, meaning the control group is entirely empty. Without countries lacking Top 100 universities, the RDD framework collapses: there is no counterfactual against which to compare treated countries. This lack of variation precludes identification of spillover effects, as we cannot observe the outcomes of countries that are "just below" the threshold in terms of having a Top 100 institution.
+
+Third, we note that the QS (2017–2026) and THE (2011–2016) panels share zero overlapping years. This temporal disjunction precludes any direct comparison or pooling of the two systems, further reinforcing our decision to base the primary analysis exclusively on QS data.
+
+### Descriptive Statistics
+
+Table 1 presents descriptive statistics for our estimation sample. The QS panel comprises 3,063 university-year observations, with an average of approximately 36 universities per country-year. The country-year sample is balanced between treatment and control groups: 152 treated country-years (those with at least one university in the Top 100) versus 155 control country-years (those without). This near-even split provides substantial statistical power for detecting spillover effects.
+
+For the cross-sectional RDD analysis, we employ the QS 2025 rankings, which include 54 countries, of which 25 are treated and 29 are control. This cross-section yields 532 universities that are potential recipients of spillover effects from Top 100 institutions in their respective countries. The bandwidth selection for our local polynomial estimation follows Calonico et al. (2014), with five alternative bandwidths (h = 5, 8, 11, 14, and 17) to assess sensitivity of our estimates to bandwidth choice.
+
+Across our nine outcome variables, we estimate a total of 45 regression specifications (9 outcomes × 5 bandwidths). Of these, 24 estimates (53%) achieve statistical significance at conventional levels, with 17 positive and 7 negative significant effects. This pattern of results—detailed in the following section—reveals a nuanced picture of ranking spillovers that varies substantially across institutional performance dimensions.

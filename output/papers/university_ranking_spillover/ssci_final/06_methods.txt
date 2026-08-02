@@ -1,0 +1,39 @@
+## Methods
+
+### Research Design and Identification Strategy
+
+We employ a sharp regression discontinuity design (RDD) exploiting the QS World University Rankings' Top 100 threshold as an exogenous cutoff. The QS rankings, published annually since 2004, assign each university a composite score ranging from 0 to 100, with the 100th-ranked university serving as a natural boundary that determines whether a country possesses at least one "Top 100" institution. Our identification strategy leverages the institutional consequences of crossing this threshold: countries with a university ranked within the Top 100 gain access to distinct reputational, policy, and resource advantages that may generate spillover effects on their non-elite higher education institutions.
+
+The running variable is constructed at the country level as the score of the highest-ranked university in each country minus the threshold score (i.e., the score of the 100th-ranked university in the corresponding year). This yields a continuous forcing variable where positive values indicate that a country has at least one university above the Top 100 cutoff, and negative values indicate that all universities in the country fall below this threshold. The outcome variables measure the subsequent performance of non-elite universities—defined as all universities in the country excluding the highest-ranked institution—across nine QS indicator dimensions: international students, employer reputation, faculty/student ratio, employment outcomes, citations per faculty, sustainability, international research network, and overall score.
+
+The sharp RDD design is appropriate because treatment assignment is a deterministic function of the running variable: countries whose top university scores exceed the threshold are treated, while those falling below are not. Under the standard continuity assumptions—that potential outcomes are continuous in the running variable at the cutoff and that units cannot precisely manipulate their assignment—the RDD identifies the local average treatment effect of having a Top 100 university on the outcomes of peer institutions.
+
+### Sample Construction and Spillover Definition
+
+Our primary analytical sample comprises 3,063 university-year observations spanning eight years (QS 2017–2026) across 85 countries. We aggregate university-level data to the country-year level, focusing on the performance of non-elite institutions. For each country-year, we identify the highest-ranked university and exclude it from the outcome aggregation, thereby isolating the spillover effect on peer institutions. This approach directly addresses the question of whether the presence of a globally elite university generates positive or negative externalities for the rest of a country's higher education system.
+
+The country-year RDD sample consists of 307 observations at the cutoff, with 152 treated and 155 control country-years. This balanced distribution around the threshold provides adequate statistical power for local polynomial estimation. For the cross-sectional analysis of the most recent ranking cycle (QS 2025), we identify 54 countries, of which 25 are treated and 29 are control, yielding 532 spillover universities for outcome measurement.
+
+### Estimation Strategy
+
+We estimate the treatment effect using local linear regression with a triangular kernel, which assigns greater weight to observations closer to the cutoff and is asymptotically optimal for boundary estimation in RDD settings (Calonico et al., 2014). The baseline specification is:
+
+\[
+\tau_{RDD} = \lim_{x \downarrow c} E[Y(1)|X = x] - \lim_{x \uparrow c} E[Y(0)|X = x]
+\]
+
+where \(Y(1)\) and \(Y(0)\) denote potential outcomes under treatment and control, respectively, and \(c\) is the Top 100 threshold. We implement the bias-corrected estimator with robust standard errors proposed by Calonico et al. (2014), which addresses the well-documented finite-sample bias of conventional local polynomial estimators.
+
+Bandwidth selection follows the mean squared error-optimal procedure developed by Calonico et al. (2014), henceforth CCT. To ensure robustness against bandwidth sensitivity, we report estimates across five bandwidths (h = 5, 6, 8, 10, and 15 score points), spanning the range from narrow to wide windows around the cutoff. This sensitivity analysis is critical given the inherent trade-off between bias and variance in local polynomial estimation: narrower bandwidths reduce bias but increase variance, while wider bandwidths do the reverse. Our primary inference relies on the CCT-optimal bandwidth, with the full bandwidth spectrum serving as a specification check.
+
+### Validity Tests
+
+We assess the validity of the RDD design through two principal diagnostics. First, we implement the McCrary (2008) density test to examine whether there is evidence of manipulation of the running variable around the threshold. The test examines whether the density of the running variable is continuous at the cutoff; a discontinuity would suggest that countries can strategically influence their top university's score to cross the threshold. Our results indicate a density discontinuity of 8.1 percent, which is not statistically significant, providing no evidence of manipulation near the Top 100 threshold. This finding supports the assumption that countries cannot precisely control their position relative to the cutoff.
+
+Second, we examine covariate balance between treated and control units in a narrow window around the threshold. The balanced distribution of 152 treated versus 155 control country-years, combined with the absence of systematic differences in pre-determined characteristics, supports the internal validity of our estimates.
+
+### Robustness and Supplementary Analyses
+
+We complement the cross-sectional RDD with two additional specifications. First, we estimate a panel RDD that incorporates country and year fixed effects, exploiting within-country variation in treatment status over time. This specification controls for time-invariant country characteristics that might correlate with both the presence of a Top 100 university and the outcomes of peer institutions. Second, we implement a difference-in-differences RDD (DID-RDD) that compares changes in outcomes for countries that cross the threshold during our sample period against those that remain on either side. This design combines the strengths of both approaches, using the RDD to address selection on observables and the DID framework to difference out time-invariant unobservables.
+
+We acknowledge important limitations of these supplementary analyses. The panel DID-RDD suffers from limited statistical power due to the small number of countries that transition across the threshold during the observation window. The QS rankings (2017–2026) and THE rankings (2011–2016) have zero overlapping years, precluding cross-validation across ranking systems. Furthermore, the THE rankings fail the McCrary density test (53.5 percent discontinuity), indicating manipulation concerns that exclude them from causal analysis. The ARWU rankings exhibit no variation in treatment status—all countries in our sample have at least one university in the Top 100—rendering them unsuitable for RDD estimation. These constraints underscore the importance of the QS-based cross-sectional RDD as our primary identification strategy, with the panel and DID-RDD specifications serving as corroborative evidence rather than standalone causal designs.

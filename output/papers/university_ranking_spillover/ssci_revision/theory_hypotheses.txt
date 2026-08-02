@@ -1,0 +1,47 @@
+## 2. Theoretical Framework and Hypotheses
+
+### 2.1 Institutional Isomorphism and Status Competition
+
+The global higher education landscape is characterized by intensifying status competition, driven by the proliferation of international university rankings. DiMaggio and Powell's (1983) seminal work on institutional isomorphism provides a foundational lens: organizations facing environmental uncertainty tend to imitate the practices and strategies of successful peers. In higher education, the entry of a domestic university into the global Top 100 constitutes a salient, externally validated signal of success. We argue that this event triggers a process of mimetic isomorphism among other domestic universities, which update their reference groups and recalibrate their aspirations upward. Prior to such an entry, the Top 100 may be perceived as an unattainable, foreign-dominated echelon; after it, the boundary of the possible shifts, making global elite status a tangible domestic objective.
+
+This dynamic is reinforced by the vertical stratification inherent in global higher education systems. Marginson (2016) argues that status signals propagate downward through the hierarchy: the achievements of top-tier institutions reshape the aspirations and strategies of those below them. When a domestic university ascends into the global elite, it does not merely elevate itself; it repositions the entire national system in the global status order. We extend this logic by drawing on the 'role model effect' documented by Qin et al. (2026) at the classroom level, hypothesizing that an analogous mechanism operates at the institutional and national levels. A domestic Top 100 entrant serves as a role model, demonstrating that global excellence is achievable within the national context, thereby stimulating ambition and strategic emulation among peer institutions.
+
+Furthermore, national governments are not passive observers in this process. Marconi and Ritzen (2015) demonstrate that rankings reshape national higher education strategies, prompting policy interventions aimed at cultivating world-class universities. The first Top 100 entry provides a powerful political justification for increased investment in higher education, framed as a national success story to be replicated. Consequently, we posit that the entry event triggers both institutional-level emulation and system-level policy responses, setting the stage for measurable spillover effects.
+
+### 2.2 Resource Concentration vs. System-Wide Spillover
+
+The theoretical literature offers competing predictions regarding the net effect of a flagship's success on other domestic universities. The first perspective emphasizes positive spillovers through a 'country-of-origin' brand effect. A domestic Top 100 entrant enhances the global reputation of the national higher education system, serving as a quality signal for all universities from that country. International students and faculty, unable to easily differentiate among institutions, may use country-level reputation as a heuristic, thereby increasing demand for mid-tier universities. Similarly, international research collaborations may be facilitated by the heightened visibility of the country's research enterprise.
+
+The second perspective, grounded in resource concentration theory, predicts winner-take-all dynamics. Cantwell, Marginson, and Smolentseva (2018) document the intensifying stratification of global higher education, wherein elite universities consolidate advantages in talent, funding, and prestige. Slaughter and Rhoades (2004) describe academic capitalism as a system where universities compete aggressively for external resources, with success breeding further success. From this vantage point, the flagship's Top 100 entry may enable it to capture a disproportionate share of domestic and international resources, potentially crowding out investment in other universities. The flagship's enhanced prestige may attract top students, faculty, and research grants, leaving fewer opportunities for its domestic peers.
+
+We reconcile these competing perspectives by proposing that the net effect is contingent on institutional tier. The brand effect is likely to be strongest for mid-tier universities, which benefit from the country-level quality signal without directly competing with the flagship for the same resources. For universities in close proximity to the flagship (i.e., other aspiring elite institutions), the crowding-out effect may dominate, as they compete directly for the same pool of top students, star faculty, and prestigious grants. For peripheral universities, the brand effect may be too weak to overcome their relative invisibility. This leads us to predict a non-linear, tier-differentiated pattern of spillover effects.
+
+### 2.3 Formal Hypotheses
+
+Building on the theoretical framework above, we propose four formal hypotheses. Each hypothesis specifies the theoretical justification, predicted sign, and key supporting citation.
+
+**H1 (Flagship Signaling Hypothesis):** After a country's first Top 100 entry, other domestic universities experience increased international student enrollment, international research collaboration, and government funding relative to control-group universities in non-entering countries.
+
+- *Theoretical Justification:* The entry event provides an exogenous, externally validated signal of national higher education quality, triggering mimetic isomorphism among domestic universities and prompting favorable policy responses from governments. This should manifest as increased international engagement and resource inflows for non-flagship institutions.
+- *Predicted Sign:* Positive for all three outcome variables.
+- *Key Citation:* Marginson (2016), on the downward propagation of status signals and the system-level effects of elite university success.
+
+**H2 (Tier-Differentiated Absorption Hypothesis):** Spillover effects are largest for mid-tier universities (ranked 200-400 globally) and weaker for both elite (top 100) and peripheral (below 500) institutions.
+
+- *Theoretical Justification:* Mid-tier universities benefit most from the country-of-origin brand effect while facing limited direct competition with the flagship. Elite universities compete directly with the flagship for resources (crowding-out), while peripheral universities lack the visibility to capitalize on the enhanced national reputation.
+- *Predicted Sign:* Inverted U-shape; positive and largest for mid-tier, smaller or null for elite and peripheral.
+- *Key Citation:* Cantwell, Marginson, and Smolentseva (2018), on the stratified nature of global higher education and the differential capacity of institutions to absorb reputational gains.
+
+**H3 (Endogenous Policy Response Hypothesis):** Governments increase total higher education funding following Top 100 entry, but the entering (flagship) university captures a disproportionate share of new resources. Net spillover to other universities is positive but smaller than the flagship's direct gain.
+
+- *Theoretical Justification:* The entry event legitimizes increased public investment in higher education as a national priority. However, policy makers are likely to concentrate resources on the proven success (the flagship) to maximize the probability of further gains, consistent with academic capitalism's logic of concentrating advantage.
+- *Predicted Sign:* Positive for total funding and flagship funding; positive but smaller for non-flagship universities.
+- *Key Citation:* Marconi and Ritzen (2015), on how rankings reshape national higher education strategies and resource allocation.
+
+**H4 (Methodological Independence Hypothesis):** Ranking agencies (QS/THE) do NOT systematically increase coverage of other universities from the country after a Top 100 entry. This rules out measurement artifacts.
+
+- *Theoretical Justification:* To ensure that observed spillover effects reflect genuine institutional changes rather than changes in ranking methodology or coverage, we must verify that ranking agencies do not alter their inclusion criteria for universities from the entering country. If coverage increases, observed improvements in international enrollment or collaboration could be artifacts of expanded data collection.
+- *Predicted Sign:* Null; no systematic change in the number of ranked universities from the entering country.
+- *Key Citation:* DiMaggio and Powell (1983), on the importance of distinguishing substantive organizational change from ceremonial or artifactual change in institutional analysis.
+
+These four hypotheses collectively provide a comprehensive framework for testing the existence, magnitude, distribution, and validity of spillover effects from a country's first Top 100 university entry. Our design employs a difference-in-differences approach with matched control countries, enabling causal identification of the entry event's effects. We test H1 and H3 using country-level and university-level panel data on international enrollment, research collaboration, and government funding. H2 is tested through stratified analyses by institutional tier. H4 serves as a falsification test, ensuring the robustness of our primary findings against measurement artifacts.

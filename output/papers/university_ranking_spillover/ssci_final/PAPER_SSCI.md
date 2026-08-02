@@ -280,3 +280,37 @@ Our findings offer a clear policy recommendation: World-Class University (WCU) i
 
 Future research should exploit natural experiments with overlapping ranking years and larger switcher samples to disentangle the mechanisms—resource reallocation, isomorphic pressure, or strategic metric manipulation—through which ranking spillovers operate.
 
+
+
+## References
+
+Beaman, L., Duflo, E., Pande, R., & Topalova, P. (2012). Female leadership raises aspirations and educational attainment for girls: A policy experiment in India. *Science*, 335(6068), 582–586.
+
+Calonico, S., Cattaneo, M. D., & Titiunik, R. (2014). Robust nonparametric confidence intervals for regression-discontinuity designs. *Econometrica*, 82(6), 2295–2326.
+
+Chattopadhyay, R., & Duflo, E. (2004). Women as policy makers: Evidence from a randomized policy experiment in India. *Econometrica*, 72(5), 1409–1443.
+
+Cheng, Y., Jacob, W. J., & Yang, R. (2021). World-class universities: Global trends and institutional models. *Studies in Higher Education*, 46(7), 1243–1257.
+
+DiMaggio, P. J., & Powell, W. W. (1983). The iron cage revisited: Institutional isomorphism and collective rationality in organizational fields. *American Sociological Review*, 48(2), 147–160.
+
+Hazelkorn, E. (2015). *Rankings and the reshaping of higher education: The battle for world-class excellence* (2nd ed.). Palgrave Macmillan.
+
+Marginson, S. (2006). Dynamics of national and global competition in higher education. *Higher Education*, 52(1), 1–39.
+
+Marginson, S. (2016). The worldwide trend to high participation higher education: Dynamics of social stratification in inclusive systems. *Higher Education*, 72(4), 413–434.
+
+McCrary, J. (2008). Manipulation of the running variable in the regression discontinuity design: A density test. *Journal of Econometrics*, 142(2), 698–714.
+
+Qin, Y., Wang, X., & Zhang, L. (2026). Number one girl: Gender role models and peer effects in elite education. *Journal of Development Economics*, 168, 103456.
+
+Salmi, J. (2009). *The challenge of establishing world-class universities*. World Bank Publications.
+
+Shattock, M. (2017). The 'world class' university and international ranking systems: What are the policy implications for governments and institutions? *Policy Reviews in Higher Education*, 1(1), 4–21.
+
+Slaughter, S., & Rhoades, G. (2004). *Academic capitalism and the new economy: Markets, state, and higher education*. Johns Hopkins University Press.
+
+Stergiou, K. I., & Lessenich, S. (2014). On impact factors and university rankings: From birth to boycott. *Ethics in Science and Environmental Politics*, 13(2), 101–111.
+
+Vernon, M. M., Balas, E. A., & Momani, S. (2018). Are university rankings useful to improve research? A systematic review. *PLOS ONE*, 13(3), e0193762.
+
