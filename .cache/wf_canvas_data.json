@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "id": "input",
+      "label": "用户请求",
+      "type": "input",
+      "shape": "stadium",
+      "color": "#3b82f6",
+      "status": "已完成",
+      "duration_ms": 0,
+      "tokens_used": 0,
+      "model": "",
+      "input_preview": "碳税对企业减排的影响",
+      "output_preview": "",
+      "error": "",
+      "iterations": 0,
+      "tools_called": [],
+      "citations": [],
+      "metadata": {
+        "stage": "input",
+        "agent_role": "",
+        "agent_goal": "",
+        "allowed_tools": [],
+        "max_iterations": 0,
+        "temperature": 0.0
+      }
+    },
+    {
+      "id": "outline",
+      "label": "大纲设计",
+      "type": "agent",
+      "shape": "box",
+      "color": "#eab308",
+      "status": "迭代超限",
+      "duration_ms": 24482.88655281067,
+      "tokens_used": 318,
+      "model": "",
+      "input_preview": "",
+      "output_preview": "",
+      "error": "",
+      "iterations": 3,
+      "tools_called": [],
+      "citations": [],
+      "feedback": "Exceeded max_iterations without approval",
+      "is_paused": false,
+      "has_gate": false,
+      "metadata": {
+        "stage": "outline",
+        "agent_name": "outline",
+        "hitl_gate": false,
+        "skip": false,
+        "depends_on": []
+      }
+    },
+    {
+      "id": "literature",
+      "label": "文献综述",
+      "type": "agent",
+      "shape": "box",
+      "color": "#eab308",
+      "status": "迭代超限",
+      "duration_ms": 0,
+      "tokens_used": 0,
+      "model": "",
+      "input_preview": "",
+      "output_preview": "",
+      "error": "",
+      "iterations": 5,
+      "tools_called": [],
+      "citations": [],
+      "feedback": "Exceeded max_iterations without approval",
+      "is_paused": false,
+      "has_gate": false,
+      "metadata": {
+        "stage": "literature",
+        "agent_name": "literature",
+        "hitl_gate": false,
+        "skip": false,
+        "depends_on": [
+          "outline"
+        ]
+      }
+    },
+    {
+      "id": "plotting",
+      "label": "图表生成",
+      "type": "agent",
+      "shape": "box",
+      "color": "#eab308",
+      "status": "迭代超限",
+      "duration_ms": 1.9431114196777344,
+      "tokens_used": 0,
+      "model": "",
+      "input_preview": "",
+      "output_preview": "",
+      "error": "",
+      "iterations": 2,
+      "tools_called": [],
+      "citations": [],
+      "feedback": "Exceeded max_iterations without approval",
+      "is_paused": false,
+      "has_gate": false,
+      "metadata": {
+        "stage": "plotting",
+        "agent_name": "plotting",
+        "hitl_gate": false,
+        "skip": false,
+        "depends_on": [
+          "outline"
+        ]
+      }
+    },
+    {
+      "id": "writing",
+      "label": "论文写作",
+      "type": "agent",
+      "shape": "box",
+      "color": "#eab308",
+      "status": "迭代超限",
+      "duration_ms": 0,
+      "tokens_used": 0,
+      "model": "",
+      "input_preview": "",
+      "output_preview": "",
+      "error": "",
+      "iterations": 3,
+      "tools_called": [],
+      "citations": [],
+      "feedback": "Exceeded max_iterations without approval",
+      "is_paused": false,
+      "has_gate": false,
+      "metadata": {
+        "stage": "writing",
+        "agent_name": "writing",
+        "hitl_gate": false,
+        "skip": false,
+        "depends_on": [
+          "outline",
+          "literature",
+          "plotting"
+        ]
+      }
+    },
+    {
+      "id": "refinement",
+      "label": "修改润色",
+      "type": "agent",
+      "shape": "box",
+      "color": "#22c55e",
+      "status": "已完成",
+      "duration_ms": 25.93255043029785,
+      "tokens_used": 0,
+      "model": "",
+      "input_preview": "",
+      "output_preview": "",
+      "error": "",
+      "iterations": 1,
+      "tools_called": [],
+      "citations": [],
+      "feedback": "审稿通过（得分 5/10）。",
+      "is_paused": false,
+      "has_gate": false,
+      "metadata": {
+        "stage": "refinement",
+        "agent_name": "refinement",
+        "hitl_gate": false,
+        "skip": false,
+        "depends_on": [
+          "writing"
+        ]
+      }
+    },
+    {
+      "id": "output",
+      "label": "最终结果",
+      "type": "output",
+      "shape": "stadium",
+      "color": "#22c55e",
+      "status": "待执行",
+      "duration_ms": 0,
+      "tokens_used": 0,
+      "model": "",
+      "input_preview": "",
+      "output_preview": "",
+      "error": "",
+      "iterations": 0,
+      "tools_called": [],
+      "citations": [],
+      "feedback": "",
+      "is_paused": false,
+      "has_gate": false,
+      "metadata": {
+        "stage": "output"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "input",
+      "target": "outline",
+      "type": "sequential",
+      "style": "solid",
+      "color": "#666",
+      "label": ""
+    },
+    {
+      "source": "outline",
+      "target": "literature",
+      "type": "dependency",
+      "style": "dashed",
+      "color": "#94a3b8",
+      "label": "依赖"
+    },
+    {
+      "source": "outline",
+      "target": "plotting",
+      "type": "dependency",
+      "style": "dashed",
+      "color": "#94a3b8",
+      "label": "依赖"
+    },
+    {
+      "source": "outline",
+      "target": "writing",
+      "type": "dependency",
+      "style": "dashed",
+      "color": "#94a3b8",
+      "label": "依赖"
+    },
+    {
+      "source": "literature",
+      "target": "writing",
+      "type": "dependency",
+      "style": "dashed",
+      "color": "#94a3b8",
+      "label": "依赖"
+    },
+    {
+      "source": "plotting",
+      "target": "writing",
+      "type": "dependency",
+      "style": "dashed",
+      "color": "#94a3b8",
+      "label": "依赖"
+    },
+    {
+      "source": "writing",
+      "target": "refinement",
+      "type": "dependency",
+      "style": "dashed",
+      "color": "#94a3b8",
+      "label": "依赖"
+    },
+    {
+      "source": "refinement",
+      "target": "output",
+      "type": "sequential",
+      "style": "solid",
+      "color": "#666",
+      "label": ""
+    }
+  ],
+  "meta": {
+    "topic": "碳税对企业减排的影响",
+    "start_time": 1785458136.072097,
+    "hitl_paused_at": null,
+    "total_stages": 5,
+    "total_gates": 0,
+    "pipeline_name": "paper_pipeline",
+    "trace_summary": {
+      "total_events": 16,
+      "agent_starts": 5,
+      "agent_ends": 5,
+      "step_skipped": 0,
+      "deps_not_satisfied": 0,
+      "hitl_pauses": 0,
+      "evolutions": 0,
+      "events": [
+        {
+          "type": "agent_registered",
+          "agent_name": "outline",
+          "timestamp": 1785458111.3078978
+        },
+        {
+          "type": "agent_registered",
+          "agent_name": "literature",
+          "timestamp": 1785458111.3078978
+        },
+        {
+          "type": "agent_registered",
+          "agent_name": "plotting",
+          "timestamp": 1785458111.3078978
+        },
+        {
+          "type": "agent_registered",
+          "agent_name": "writing",
+          "timestamp": 1785458111.3078978
+        },
+        {
+          "type": "agent_registered",
+          "agent_name": "refinement",
+          "timestamp": 1785458111.3078978
+        },
+        {
+          "type": "agent_registered",
+          "agent_name": "data_fetch",
+          "timestamp": 1785458111.3078978
+        },
+        {
+          "type": "agent_start",
+          "stage": "outline",
+          "agent_name": "outline",
+          "timestamp": 1785458111.5583425
+        },
+        {
+          "type": "agent_end",
+          "stage": "outline",
+          "agent_name": "outline",
+          "status": "max_iterations",
+          "iterations": 3,
+          "latency_ms": 24482.88655281067,
+          "timestamp": 1785458136.041229
+        },
+        {
+          "type": "agent_start",
+          "stage": "literature",
+          "agent_name": "literature",
+          "timestamp": 1785458136.041229
+        },
+        {
+          "type": "agent_end",
+          "stage": "literature",
+          "agent_name": "literature",
+          "status": "max_iterations",
+          "iterations": 5,
+          "latency_ms": 0.0,
+          "timestamp": 1785458136.041229
+        },
+        {
+          "type": "agent_start",
+          "stage": "plotting",
+          "agent_name": "plotting",
+          "timestamp": 1785458136.041229
+        },
+        {
+          "type": "agent_end",
+          "stage": "plotting",
+          "agent_name": "plotting",
+          "status": "max_iterations",
+          "iterations": 2,
+          "latency_ms": 1.9431114196777344,
+          "timestamp": 1785458136.0431721
+        },
+        {
+          "type": "agent_start",
+          "stage": "writing",
+          "agent_name": "writing",
+          "timestamp": 1785458136.0431721
+        },
+        {
+          "type": "agent_end",
+          "stage": "writing",
+          "agent_name": "writing",
+          "status": "max_iterations",
+          "iterations": 3,
+          "latency_ms": 0.0,
+          "timestamp": 1785458136.0431721
+        },
+        {
+          "type": "agent_start",
+          "stage": "refinement",
+          "agent_name": "refinement",
+          "timestamp": 1785458136.0431721
+        },
+        {
+          "type": "agent_end",
+          "stage": "refinement",
+          "agent_name": "refinement",
+          "status": "approved",
+          "iterations": 1,
+          "latency_ms": 25.93255043029785,
+          "timestamp": 1785458136.0691047
+        }
+      ]
+    }
+  }
+}

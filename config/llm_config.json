@@ -17,7 +17,7 @@
     "local_ollama":             "llama3.2"
   },
   "deepseek": {
-    "api_key": "$DEEPSEEK_API_KEY",
+    "api_key": "sk-f2873de9bce64915ba92b102ac2e9132",
     "base_url": "https://api.deepseek.com",
     "models": {
       "deepseek-v4-flash": "DeepSeek V4 Flash — 快速通用，中文最优，1M context",

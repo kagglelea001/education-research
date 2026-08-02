@@ -1,0 +1,601 @@
+rank,institution,country,academic_reputation,employer_reputation,faculty_student_ratio,citations_per_faculty,international_faculty,international_students,overall_score,year
+1.0,Massachusetts Institute of Technology (MIT) ,United States,100.0,100.0,100.0,100.0,99.3,86.8,100.0,2025
+2.0,Imperial College London,United Kingdom,98.5,99.5,98.2,93.9,100.0,99.6,98.5,2025
+3.0,University of Oxford,United Kingdom,100.0,100.0,100.0,84.8,98.1,97.7,96.9,2025
+4.0,Harvard University,United States,100.0,100.0,96.3,100.0,74.1,69.0,96.8,2025
+5.0,University of Cambridge,United Kingdom,100.0,100.0,100.0,84.6,100.0,94.8,96.7,2025
+6.0,Stanford University,United States,100.0,100.0,100.0,99.0,70.3,60.8,96.1,2025
+7.0,ETH Zurich - Swiss Federal Institute of Technology,Switzerland,98.8,87.2,65.9,97.9,100.0,98.6,93.9,2025
+8.0,National University of Singapore (NUS),Singapore,99.5,91.1,68.8,93.1,100.0,88.9,93.7,2025
+9.0,UCL,United Kingdom,99.5,98.3,95.9,72.2,99.0,100.0,91.6,2025
+10.0,California Institute of Technology (Caltech),United States,96.5,95.3,100.0,100.0,100.0,79.8,90.9,2025
+11.0,University of Pennsylvania,United States,96.3,91.9,99.8,74.0,90.9,66.2,90.3,2025
+12.0,"University of California, Berkeley (UCB)",United States,100.0,100.0,23.5,98.2,91.5,61.0,90.1,2025
+13.0,The University of Melbourne,Australia,98.5,93.9,15.4,93.0,95.1,99.8,88.9,2025
+14.0,Peking University,China (Mainland),99.5,96.6,92.6,97.7,50.3,23.6,88.5,2025
+15.0,"Nanyang Technological University, Singapore (NTU)",Singapore,91.9,73.3,80.6,92.4,100.0,83.5,88.4,2025
+16.0,Cornell University,United States,98.3,93.1,52.7,97.5,54.2,63.4,87.9,2025
+17.0,The University of Hong Kong,Hong Kong SAR,97.4,59.4,81.2,86.4,100.0,99.3,87.6,2025
+18.0,The University of Sydney,Australia,96.4,90.0,10.9,93.7,99.9,100.0,87.3,2025
+19.0,The University of New South Wales (UNSW Sydney),Australia,90.5,90.4,20.6,94.9,100.0,99.4,87.1,2025
+20.0,Tsinghua University,China (Mainland),99.2,97.7,95.0,99.1,18.1,13.4,86.5,2025
+21.0,University of Chicago,United States,99.1,96.4,94.2,60.8,79.0,87.0,86.2,2025
+22.0,Princeton University,United States,99.8,98.3,57.0,100.0,9.6,56.6,85.5,2025
+23.0,Yale University,United States,99.9,99.9,100.0,38.6,91.5,63.3,85.2,2025
+24.0,Université PSL,France,74.4,97.6,98.1,87.6,62.3,65.0,84.7,2025
+25.0,University of Toronto,Canada,99.7,96.9,44.9,50.8,96.9,96.1,84.1,2025
+26.0,EPFL,Switzerland,84.2,67.2,91.2,93.6,100.0,100.0,83.5,2025
+27.0,The University of Edinburgh,United Kingdom,98.3,97.2,65.5,47.7,98.7,99.8,83.3,2025
+28.0,Technical University of Munich,Germany,83.0,98.6,76.8,75.9,80.4,98.6,83.2,2025
+29.0,McGill University,Canada,94.3,87.6,62.3,57.9,83.7,89.6,83.0,2025
+30.0,The Australian National University,Australia,93.8,75.4,34.6,84.6,100.0,96.2,82.4,2025
+31.0,Seoul National University,South Korea,98.5,98.6,83.1,71.7,10.5,16.9,82.3,2025
+32.0,Johns Hopkins University,United States,86.0,62.6,100.0,84.2,63.7,95.8,82.1,2025
+32.0,The University of Tokyo,Japan,100.0,99.8,89.3,57.3,10.1,29.7,82.1,2025
+34.0,Columbia University,United States,99.6,98.8,100.0,31.7,41.5,97.0,82.0,2025
+34.0,The University of Manchester,United Kingdom,95.6,98.1,51.3,45.1,93.1,99.2,82.0,2025
+36.0,The Chinese University of Hong Kong (CUHK),Hong Kong SAR,86.7,53.3,64.2,92.9,100.0,87.5,81.3,2025
+37.0,Monash University,Australia,89.2,79.6,9.4,87.6,100.0,100.0,81.2,2025
+38.0,University of British Columbia,Canada,98.3,94.3,34.5,57.7,95.5,72.8,81.0,2025
+39.0,Fudan University,China (Mainland),85.7,87.8,79.7,80.7,88.4,35.1,80.3,2025
+40.0,King's College London,United Kingdom,90.3,85.7,64.3,53.6,99.1,99.5,80.2,2025
+40.0,The University of Queensland,Australia,86.7,74.0,21.2,90.2,100.0,100.0,80.2,2025
+42.0,"University of California, Los Angeles (UCLA)",United States,100.0,99.8,35.4,74.0,42.2,22.3,79.8,2025
+43.0,New York University (NYU),United States,96.3,98.8,90.5,28.6,30.2,98.1,79.6,2025
+44.0,University of Michigan-Ann Arbor,United States,97.9,92.1,80.3,47.6,65.5,39.2,79.0,2025
+45.0,Shanghai Jiao Tong University,China (Mainland),84.0,86.3,58.6,99.6,23.1,19.6,77.8,2025
+46.0,Institut Polytechnique de Paris,France,44.7,99.6,95.9,86.1,99.1,98.0,77.5,2025
+47.0,The Hong Kong University of Science and Technology,Hong Kong SAR,81.1,50.3,56.7,99.7,100.0,95.4,77.1,2025
+47.0,Zhejiang University,China (Mainland),75.3,95.4,54.7,99.5,95.0,15.9,77.1,2025
+49.0,Delft University of Technology,Netherlands,74.4,83.0,39.4,79.7,100.0,91.4,77.0,2025
+50.0,Kyoto University,Japan,98.8,99.0,94.2,39.3,15.9,19.0,76.0,2025
+50.0,Northwestern University,United States,84.0,68.0,97.6,67.7,45.4,52.0,76.0,2025
+50.0,The London School of Economics and Political Science (LSE),United Kingdom,67.2,97.0,35.1,69.4,100.0,100.0,76.0,2025
+53.0,KAIST - Korea Advanced Institute of Science & Technology,South Korea,87.7,91.0,60.2,96.2,21.1,10.9,75.7,2025
+54.0,University of Bristol,United Kingdom,75.8,82.5,36.7,75.9,87.5,89.8,75.4,2025
+55.0,University of Amsterdam,Netherlands,83.8,52.1,21.4,92.2,96.0,87.5,73.7,2025
+56.0,Yonsei University,South Korea,81.5,97.0,84.2,44.1,20.7,51.2,72.9,2025
+57.0,The Hong Kong Polytechnic University,Hong Kong SAR,68.0,35.6,65.0,94.9,100.0,91.9,72.1,2025
+58.0,Carnegie Mellon University,United States,69.8,80.1,40.9,98.9,33.7,99.1,72.0,2025
+59.0,Ludwig-Maximilians-Universität München,Germany,92.2,86.6,38.5,50.0,75.1,37.6,71.6,2025
+60.0,Universiti Malaya (UM),Malaysia,82.9,95.1,75.7,29.1,60.2,64.2,71.2,2025
+61.0,Duke University,United States,86.0,74.7,100.0,35.1,16.3,61.0,70.8,2025
+62.0,City University of Hong Kong,Hong Kong SAR,60.9,30.8,89.5,100.0,100.0,100.0,70.7,2025
+63.0,KU Leuven,Belgium,84.6,49.6,7.1,91.0,93.8,47.7,70.3,2025
+63.0,Sorbonne University,France,87.2,52.0,43.0,72.3,33.8,46.7,70.3,2025
+65.0,The University of Auckland,New Zealand,82.2,44.7,15.5,66.9,100.0,84.0,69.7,2025
+66.0,University of Texas at Austin,United States,93.5,86.6,8.1,76.7,6.1,11.7,69.5,2025
+67.0,Korea University,South Korea,78.2,93.8,73.0,45.0,15.2,45.7,69.0,2025
+68.0,National Taiwan University (NTU),Taiwan,93.4,92.1,25.5,44.3,16.7,27.4,68.7,2025
+69.0,The University of Warwick,United Kingdom,72.2,86.4,35.5,37.7,98.1,99.1,68.2,2025
+69.0,University of Illinois at Urbana-Champaign,United States,83.9,75.7,6.4,77.5,14.0,56.3,68.2,2025
+71.0,Universidad de Buenos Aires (UBA),Argentina,94.1,94.1,71.7,1.6,63.9,64.6,67.6,2025
+72.0,"University of California, San Diego (UCSD)",United States,89.3,57.8,50.8,67.0,54.6,44.3,67.1,2025
+73.0,Université Paris-Saclay,France,60.7,99.1,99.8,35.0,35.7,58.6,67.0,2025
+74.0,KTH Royal Institute of Technology ,Sweden,45.2,55.6,62.3,86.1,92.0,65.9,65.7,2025
+75.0,Lund University,Sweden,68.3,52.5,55.5,44.6,97.4,73.4,65.6,2025
+76.0,University of Washington,United States,81.9,55.5,28.6,78.8,11.0,32.8,65.3,2025
+77.0,The University of Western Australia,Australia,55.5,41.8,13.1,98.8,100.0,99.8,65.2,2025
+78.0,University of Glasgow,United Kingdom,77.4,67.7,38.0,32.5,95.7,99.4,65.0,2025
+79.0,Brown University,United States,59.9,49.6,77.7,76.4,79.9,50.9,64.7,2025
+80.0,University of Birmingham,United Kingdom,68.9,69.0,39.0,40.5,92.6,89.3,64.1,2025
+80.0,University of Southampton,United Kingdom,50.1,44.3,40.7,83.4,92.5,98.0,64.1,2025
+82.0,The University of Adelaide,Australia,56.0,38.9,17.9,87.0,100.0,99.3,63.8,2025
+82.0,University of Leeds,United Kingdom,70.5,75.9,36.4,39.8,82.5,88.5,63.8,2025
+84.0,Ruprecht-Karls-Universität Heidelberg,Germany,76.9,59.4,99.4,32.7,54.2,53.6,63.7,2025
+84.0,Tokyo Institute of Technology (Tokyo Tech),Japan,75.1,94.1,84.1,43.1,23.4,30.5,63.7,2025
+86.0,Osaka University,Japan,82.4,87.0,45.2,54.9,23.9,12.2,63.5,2025
+87.0,"Trinity College Dublin, The University of Dublin",Ireland,69.5,47.4,20.2,58.4,99.3,88.0,62.9,2025
+88.0,University of Technology Sydney,Australia,43.9,55.0,9.8,97.7,96.6,86.0,62.4,2025
+89.0,Durham University,United Kingdom,59.6,83.9,26.3,40.9,97.3,84.9,61.7,2025
+89.0,Pennsylvania State University,United States,76.6,64.5,25.0,55.4,25.1,28.0,61.7,2025
+89.0,Purdue University,United States,63.3,81.1,11.4,54.3,79.6,45.2,61.7,2025
+92.0,Universidade de São Paulo,Brazil,92.8,74.6,21.4,28.5,6.8,2.1,61.6,2025
+93.0,Pontificia Universidad Católica de Chile (UC),Chile,93.7,98.0,23.7,8.8,26.0,3.7,61.5,2025
+94.0,Lomonosov Moscow State University,Russia,78.0,82.3,99.7,4.1,19.7,91.5,61.4,2025
+94.0,Universidad Nacional Autónoma de México (UNAM),Mexico,97.0,94.4,37.4,2.4,7.5,2.3,61.4,2025
+96.0,University of Alberta,Canada,57.0,42.2,39.1,61.3,98.3,71.0,61.2,2025
+97.0,Freie Universitaet Berlin,Germany,80.3,56.9,5.0,71.7,62.4,43.7,60.6,2025
+98.0,Pohang University of Science And Technology (POSTECH),South Korea,45.9,80.0,99.9,96.9,27.6,2.7,60.3,2025
+99.0,RWTH Aachen University,Germany,46.6,93.7,6.3,71.9,48.6,85.5,59.9,2025
+100.0,University of Copenhagen,Denmark,74.0,31.6,99.8,23.1,84.9,15.6,59.6,2025
+101.0,King Fahd University of Petroleum & Minerals,Saudi Arabia,38.0,46.5,86.0,78.0,100.0,47.6,59.5,2025
+102.0,"KIT, Karlsruhe Institute of Technology",Germany,44.9,80.9,39.4,68.4,70.5,42.9,59.4,2025
+103.0,Uppsala University,Sweden,61.4,33.7,52.0,42.3,99.4,81.1,59.3,2025
+104.0,University of St Andrews,United Kingdom,46.5,63.2,64.7,49.2,98.4,100.0,59.2,2025
+105.0,The University of Sheffield,United Kingdom,58.3,48.7,52.5,43.9,83.3,96.8,59.1,2025
+105.0,Utrecht University,Netherlands,66.5,38.8,31.0,79.5,55.7,19.4,59.1,2025
+107.0,Tohoku University,Japan,73.8,82.8,97.8,23.9,14.1,11.4,58.8,2025
+108.0,University of Nottingham,United Kingdom,61.1,65.8,32.8,37.6,89.4,70.5,58.5,2025
+109.0,Technical University of Denmark,Denmark,33.2,22.1,99.1,84.4,100.0,87.7,58.3,2025
+109.0,University of Zurich,Switzerland,59.9,26.4,92.2,40.1,100.0,42.8,58.3,2025
+111.0,Politecnico di Milano,Italy,70.8,77.0,5.8,40.2,67.4,56.8,58.2,2025
+108.0,Boston University,United States,61.9,69.1,38.3,41.3,34.3,88.9,58.6,2025
+113.0,Aalto University,Finland,45.7,40.6,33.2,73.6,95.2,40.1,57.9,2025
+114.0,Georgia Institute of Technology,United States,67.1,82.6,20.3,52.8,21.3,66.4,57.3,2025
+115.0,University of Waterloo,Canada,40.4,64.2,6.5,78.9,75.8,71.3,57.2,2025
+116.0,University of Wisconsin-Madison,United States,77.7,47.8,74.3,23.7,35.3,23.6,57.1,2025
+117.0,University of Helsinki,Finland,62.3,29.1,59.4,49.6,73.4,5.7,56.8,2025
+118.0,Indian Institute of Technology Bombay (IITB),India,58.5,86.0,14.4,79.1,4.3,1.3,56.3,2025
+119.0,University of Oslo,Norway,55.6,16.0,73.8,55.7,91.6,31.7,56.1,2025
+120.0,Queen Mary University of London,United Kingdom,48.3,36.9,30.4,62.8,99.5,99.2,55.8,2025
+120.0,Western University,Canada,32.6,38.9,3.3,93.4,99.8,49.5,55.8,2025
+122.0,Qatar University,Qatar,29.8,50.6,68.1,48.2,100.0,96.5,55.7,2025
+123.0,RMIT University,Australia,40.4,48.0,5.2,77.7,100.0,91.4,55.5,2025
+123.0,Sungkyunkwan University(SKKU),South Korea,57.9,70.7,80.5,41.3,17.5,41.7,55.5,2025
+125.0,University of Southern California,United States,50.4,54.5,17.3,58.0,26.0,74.1,55.2,2025
+126.0,Humboldt-Universität zu Berlin,Germany,89.2,69.9,7.4,27.0,69.1,35.1,55.0,2025
+126.0,University College Dublin,Ireland,51.4,43.5,16.6,46.4,99.1,74.8,55.0,2025
+128.0,Stockholm University,Sweden,52.5,21.0,26.7,64.5,80.7,89.8,54.8,2025
+129.0,Newcastle University,United Kingdom,50.0,59.3,39.2,38.7,89.5,68.6,54.5,2025
+130.0,"University of California, Davis",United States,63.0,48.0,23.5,52.5,72.7,51.3,54.4,2025
+131.0,University of Basel,Switzerland,26.6,13.5,61.4,94.5,100.0,85.8,54.3,2025
+132.0,Sapienza University of Rome,Italy,80.7,48.5,5.0,45.3,3.1,8.0,54.2,2025
+133.0,Alma Mater Studiorum - University of Bologna,Italy,80.8,47.8,3.7,46.6,14.5,12.3,54.1,2025
+133.0,Macquarie University,Australia,33.4,39.2,9.1,79.6,99.9,91.6,54.1,2025
+133.0,University of Science and Technology of China,China (Mainland),50.0,23.7,94.7,97.7,11.6,5.1,54.1,2025
+136.0,Eindhoven University of Technology,Netherlands,28.7,72.1,35.7,79.3,100.0,82.7,54.0,2025
+137.0,University of Vienna,Austria,70.9,40.4,23.2,13.0,100.0,92.0,53.9,2025
+138.0,Universiti Kebangsaan Malaysia (UKM),Malaysia,61.7,66.4,80.4,14.1,45.7,78.8,53.8,2025
+139.0,Chalmers University of Technology,Sweden,26.3,50.4,50.5,77.4,100.0,63.1,53.7,2025
+139.0,Universidad de Chile,Chile,82.8,90.0,8.0,11.2,8.5,4.5,53.7,2025
+141.0,Lancaster University,United Kingdom,38.9,36.7,27.7,69.6,93.3,92.3,53.6,2025
+141.0,Leiden University,Netherlands,68.4,32.9,21.3,54.5,85.0,51.7,53.6,2025
+141.0,Rice University,United States,39.1,27.3,62.5,87.9,77.5,94.1,53.6,2025
+144.0,Aarhus University,Denmark,54.7,27.6,30.8,63.8,89.8,11.9,53.3,2025
+145.0,Nanjing University,China (Mainland),57.1,32.5,35.6,93.0,61.9,7.6,53.0,2025
+146.0,Universiti Sains Malaysia (USM),Malaysia,63.3,69.7,46.4,19.6,24.3,96.4,52.7,2025
+147.0,Technische Universität Berlin (TU Berlin),Germany,55.3,74.3,58.0,22.1,63.2,74.8,52.5,2025
+148.0,Universiti Putra Malaysia (UPM),Malaysia,61.0,61.9,58.8,25.7,36.1,92.0,52.3,2025
+149.0,King Abdulaziz University (KAU),Saudi Arabia,59.8,61.4,41.6,34.4,89.3,9.5,52.2,2025
+150.0,Indian Institute of Technology Delhi (IITD),India,54.1,80.9,17.3,77.4,3.1,1.5,52.1,2025
+150.0,University of Bath,United Kingdom,35.8,67.9,18.3,52.0,94.3,80.0,52.1,2025
+152.0,Michigan State University,United States,59.5,48.6,11.4,50.3,54.5,12.4,51.9,2025
+152.0,Nagoya University,Japan,63.2,65.8,84.7,25.4,14.5,19.6,51.9,2025
+154.0,Texas A&M University,United States,61.2,66.0,4.4,64.3,21.9,12.1,51.8,2025
+155.0,University of Geneva,Switzerland,45.5,17.2,40.4,62.4,100.0,97.6,51.6,2025
+155.0,"University of North Carolina, Chapel Hill",United States,61.4,36.5,72.9,47.2,23.5,11.1,51.6,2025
+155.0,Wageningen University & Research,Netherlands,42.1,23.8,98.6,41.3,59.4,81.2,51.6,2025
+158.0,Erasmus University Rotterdam ,Netherlands,37.0,58.2,18.1,63.3,76.0,70.0,51.5,2025
+159.0,Université de Montréal ,Canada,55.5,32.8,76.0,19.3,87.6,54.1,51.3,2025
+159.0,University of Groningen,Netherlands,52.3,34.4,49.3,41.2,93.2,83.5,51.3,2025
+161.0,University of Bern,Switzerland,29.7,16.1,45.9,99.3,100.0,38.0,51.2,2025
+162.0,Hanyang University,South Korea,43.0,78.0,77.1,28.5,17.4,57.6,51.1,2025
+163.0,Al-Farabi Kazakh National University,Kazakhstan,54.2,79.6,99.3,1.4,49.0,54.2,51.0,2025
+164.0,Complutense University of Madrid,Spain,68.1,68.1,28.7,7.9,10.5,34.3,50.9,2025
+165.0,Universitat de Barcelona,Spain,73.7,30.3,12.4,38.1,23.1,26.3,50.7,2025
+165.0,University of Liverpool,United Kingdom,46.1,39.4,37.8,36.6,88.3,85.4,50.7,2025
+167.0,Kyushu University,Japan,58.3,66.5,78.4,27.9,18.7,14.1,50.3,2025
+167.0,University of Wollongong,Australia,29.5,24.5,17.0,94.6,91.8,56.3,50.3,2025
+169.0,Ghent University,Belgium,53.2,24.8,78.5,21.5,79.7,21.4,50.1,2025
+169.0,The University of Exeter,United Kingdom,42.9,45.0,30.2,42.5,91.0,72.2,50.1,2025
+171.0,University of Cape Town,South Africa,45.2,51.8,13.8,46.8,56.5,19.2,50.0,2025
+172.0,University of Reading,United Kingdom,32.2,41.7,13.1,65.7,86.2,78.6,49.9,2025
+173.0,Hokkaido University,Japan,59.0,63.3,76.2,26.0,18.7,12.1,49.8,2025
+174.0,Curtin University,Australia,33.1,27.7,15.7,84.7,100.0,24.3,49.3,2025
+175.0,Universitat Autònoma de Barcelona,Spain,64.0,35.8,11.5,59.5,18.5,16.5,49.2,2025
+176.0,McMaster University,Canada,39.5,34.2,63.8,35.6,96.2,56.7,49.0,2025
+171.0,Washington University in St. Louis,United States,36.3,12.0,99.7,47.7,85.4,72.4,49.9,2025
+178.0,"University of California, Santa Barbara (UCSB)",United States,52.6,21.3,7.7,97.8,75.4,17.2,48.9,2025
+179.0,"The University of Newcastle, Australia (UON)",Australia,28.3,24.5,28.7,91.7,99.9,24.2,48.7,2025
+179.0,Universidad de los Andes,Colombia,67.7,88.4,14.2,5.9,22.8,1.9,48.7,2025
+181.0,Universiti Teknologi Malaysia ,Malaysia,48.6,59.6,46.0,40.5,14.1,86.9,48.5,2025
+181.0,Waseda University,Japan,60.7,96.1,23.5,3.8,27.9,28.0,48.5,2025
+183.0,Hamad Bin Khalifa University,Qatar,12.9,4.7,99.9,100.0,100.0,100.0,48.3,2025
+184.0,University of York,United Kingdom,42.9,30.1,43.0,40.1,87.8,75.6,48.2,2025
+185.0,Tecnológico de Monterrey,Mexico,53.8,91.4,62.5,2.4,20.8,10.6,48.1,2025
+186.0,Cardiff University,United Kingdom,46.8,43.2,36.1,30.0,82.8,67.7,47.6,2025
+187.0,École Normale Supérieure de Lyon,France,29.8,16.3,97.0,93.5,59.0,11.7,47.5,2025
+188.0,Keio University,Japan,53.0,91.6,57.2,5.1,9.4,10.2,47.4,2025
+189.0,University of Ottawa,Canada,26.2,23.3,3.5,81.3,91.7,77.8,47.3,2025
+190.0,Technische Universität Wien,Austria,33.9,50.4,12.5,73.8,85.5,90.4,47.2,2025
+191.0,Universität Hamburg,Germany,50.7,35.7,16.5,54.7,40.2,20.4,47.1,2025
+192.0,Tongji University,China (Mainland),31.8,16.9,29.1,96.9,54.5,26.5,46.9,2025
+193.0,Queen's University at Kingston,Canada,40.8,56.7,5.4,42.6,69.2,26.6,46.8,2025
+194.0,University of Gothenburg,Sweden,35.4,18.3,60.9,33.6,90.0,78.2,46.7,2025
+194.0,Wuhan University,China (Mainland),39.2,40.5,14.0,91.9,39.2,4.9,46.7,2025
+196.0,Emory University,United States,25.2,19.0,93.8,78.4,52.2,33.9,46.6,2025
+197.0,Deakin University,Australia,31.3,23.9,4.6,73.6,96.4,63.8,46.4,2025
+198.0,Universidad Autónoma de Madrid,Spain,61.0,64.3,29.1,21.0,7.7,10.4,46.3,2025
+198.0,University of Calgary,Canada,37.9,44.5,18.1,40.3,77.7,66.2,46.3,2025
+200.0,Arizona State University,United States,48.6,44.1,7.4,47.1,52.1,37.2,46.2,2025
+200.0,King Saud University,Saudi Arabia,39.4,28.7,54.3,40.0,99.4,15.0,46.2,2025
+332.0,American University of Sharjah,United Arab Emirates,20.9,38.6,19.1,23.9,100.0,100.0,33.6,2025
+203.0,Université catholique de Louvain (UCLouvain),Belgium,48.4,25.9,4.6,55.0,91.0,47.6,46.0,2025
+203.0,University of Minnesota Twin Cities,United States,56.8,33.1,32.4,41.9,7.7,8.7,46.0,2025
+205.0,Ecole des Ponts ParisTech,France,8.9,58.5,99.0,62.6,43.5,96.5,45.8,2025
+206.0,Queen's University Belfast,United Kingdom,35.4,33.6,28.6,40.6,100.0,98.2,45.7,2025
+206.0,Universitas Indonesia,Indonesia,53.8,79.2,55.7,2.1,88.3,7.1,45.7,2025
+208.0,The Ohio State University,United States,58.6,50.4,39.5,31.2,13.4,10.6,45.6,2025
+209.0,Tel Aviv University,Israel,32.0,18.6,4.2,99.4,39.7,7.0,45.2,2025
+210.0,National Tsing Hua University,Taiwan,54.8,71.2,28.0,49.6,9.5,11.1,45.1,2025
+211.0,Indian Institute of Science,India,45.7,26.3,37.9,99.9,3.7,1.5,45.0,2025
+212.0,Albert-Ludwigs-Universitaet Freiburg,Germany,43.1,24.5,24.6,52.2,67.6,33.7,44.8,2025
+213.0,Queensland University of Technology (QUT),Australia,39.8,33.1,8.1,59.9,97.9,20.7,44.7,2025
+214.0,University of Otago,New Zealand,45.0,24.6,12.8,38.8,100.0,37.6,44.4,2025
+215.0,National Cheng Kung University (NCKU),Taiwan,51.5,74.0,33.4,20.3,16.3,13.9,44.2,2025
+215.0,University of Florida,United States,46.7,42.3,62.9,32.1,17.8,10.3,44.2,2025
+217.0,La Trobe University,Australia,23.6,19.8,8.0,77.7,92.6,95.0,44.1,2025
+218.0,"University of Maryland, College Park",United States,48.6,29.4,32.5,55.0,20.9,16.2,44.0,2025
+219.0,National Yang Ming Chiao Tung University,Taiwan,32.9,62.7,51.1,52.7,19.6,19.2,43.9,2025
+219.0,Universidad Nacional de Colombia,Colombia,71.0,89.9,5.4,3.4,5.6,1.4,43.9,2025
+221.0,Vrije Universiteit Amsterdam,Netherlands,39.4,17.8,21.3,63.7,67.3,47.4,43.8,2025
+222.0,Eberhard Karls Universität Tübingen,Germany,46.0,30.7,87.1,20.5,76.1,26.2,43.7,2025
+222.0,Indian Institute of Technology Kharagpur (IIT-KGP),India,34.0,51.1,9.0,90.2,1.1,1.1,43.7,2025
+224.0,Friedrich-Alexander-Universität Erlangen-Nürnberg,Germany,25.8,27.7,3.2,94.9,27.2,48.8,43.6,2025
+224.0,Loughborough University,United Kingdom,29.7,55.3,23.8,32.4,87.1,68.6,43.6,2025
+224.0,University of Lausanne,Switzerland,28.4,18.8,36.8,61.0,100.0,54.2,43.6,2025
+227.0,Indian Institute of Technology Madras (IITM),India,42.4,63.2,20.3,70.3,3.9,1.6,43.5,2025
+227.0,Rheinische Friedrich-Wilhelms-Universität Bonn,Germany,52.8,24.1,62.7,17.2,44.3,38.9,43.5,2025
+229.0,Chulalongkorn University,Thailand,68.2,35.9,31.7,7.5,18.7,3.0,43.4,2025
+230.0,Maastricht University ,Netherlands,23.0,27.8,13.2,62.8,99.4,100.0,43.0,2025
+230.0,Universite libre de Bruxelles,Belgium,33.3,34.5,3.0,49.9,98.7,84.4,43.0,2025
+232.0,Universidade Estadual de Campinas (Unicamp),Brazil,71.8,40.3,14.7,24.3,10.7,2.7,42.9,2025
+233.0,University of Twente,Netherlands,20.7,32.0,43.3,61.3,100.0,90.4,42.7,2025
+234.0,Technische Universität Dresden,Germany,36.3,42.5,80.3,28.5,35.8,27.6,42.6,2025
+235.0,University of Waikato,New Zealand,19.1,11.7,12.4,84.7,99.0,56.9,42.5,2025
+236.0,Università di Padova,Italy,58.9,27.3,8.5,45.7,9.2,11.1,42.3,2025
+236.0,University of Aberdeen,United Kingdom,30.5,28.8,32.7,32.0,94.5,92.6,42.3,2025
+236.0,University of Rochester,United States,22.6,20.8,99.1,33.6,63.9,93.8,42.3,2025
+239.0,Gadjah Mada University,Indonesia,54.4,73.5,57.6,1.7,40.3,4.1,41.8,2025
+239.0,Massey University,New Zealand,30.1,14.0,48.0,27.4,98.5,95.2,41.8,2025
+241.0,Politecnico di Torino,Italy,40.2,52.1,3.1,51.6,4.9,41.0,41.7,2025
+241.0,Technical University of Darmstadt,Germany,20.0,35.9,6.7,70.0,60.3,81.4,41.7,2025
+243.0,Dartmouth College,United States,22.8,31.0,65.8,60.6,9.2,40.9,41.3,2025
+244.0,Victoria University of Wellington,New Zealand,42.8,21.4,10.1,32.1,100.0,31.0,41.2,2025
+245.0,University of Macau,Macau SAR,11.9,10.5,9.8,99.1,100.0,99.9,41.1,2025
+246.0,Charles University,Czech Republic,45.6,49.1,32.2,8.0,25.0,50.5,41.0,2025
+246.0,University of Sussex,United Kingdom,22.6,10.4,15.5,56.8,99.6,84.9,41.0,2025
+248.0,Vanderbilt University,United States,24.4,21.8,100.0,53.0,30.1,36.0,40.8,2025
+249.0,University of Navarra,Spain,30.6,68.0,49.6,14.7,24.8,73.8,40.7,2025
+250.0,American University of Beirut (AUB),Lebanon,28.6,29.5,48.5,28.9,63.2,37.0,40.6,2025
+251.0,Taylor's University,Malaysia,27.0,81.0,71.5,10.1,64.8,99.6,40.5,2025
+252.0,Harbin Institute of Technology,China (Mainland),27.1,21.1,33.7,99.8,8.0,5.0,40.3,2025
+252.0,Hong Kong Baptist University,Hong Kong SAR,18.2,12.0,60.0,61.4,98.9,100.0,40.3,2025
+252.0,University of Göttingen,Germany,46.4,27.1,76.4,16.2,49.7,22.4,40.3,2025
+255.0,Griffith University,Australia,27.0,13.7,8.4,62.5,99.8,38.5,40.1,2025
+256.0,Bandung Institute of Technology (ITB),Indonesia,43.2,72.7,55.8,2.6,94.4,3.8,39.9,2025
+256.0,Heriot-Watt University,United Kingdom,17.8,27.1,17.6,65.2,100.0,98.1,39.9,2025
+258.0,University of Warsaw ,Poland,50.0,53.6,46.4,5.5,10.5,8.4,39.8,2025
+259.0,Case Western Reserve University,United States,17.2,15.4,82.3,61.6,35.7,71.7,39.7,2025
+260.0,University of Lisbon ,Portugal,44.0,20.7,10.7,36.5,9.0,39.4,39.6,2025
+523.0,Canadian University Dubai,United Arab Emirates,20.1,19.9,33.5,2.7,100.0,100.0,23.5,2025
+261.0,University of Canterbury | Te Whare Wananga o Waitaha,New Zealand,34.7,27.3,10.4,31.4,100.0,27.7,39.4,2025
+263.0,Indian Institute of Technology Kanpur (IITK),India,36.9,56.9,14.0,73.3,2.6,1.1,39.3,2025
+264.0,Norwegian University of Science And Technology,Norway,33.2,25.2,22.3,30.4,75.1,9.3,39.1,2025
+265.0,UCSI University,Malaysia,27.0,65.1,78.1,3.6,89.1,95.8,38.8,2025
+265.0,Universitat Pompeu Fabra (Barcelona),Spain,31.7,29.4,12.1,67.1,75.6,24.5,38.8,2025
+267.0,University of Antwerp,Belgium,24.1,11.3,37.5,48.1,94.4,32.0,38.7,2025
+267.0,University of Witwatersrand,South Africa,26.5,42.1,8.9,30.5,75.1,5.8,38.7,2025
+269.0,Tianjin University,China (Mainland),17.2,13.5,38.8,99.5,24.8,25.4,38.6,2025
+269.0,Universiti Teknologi PETRONAS (UTP),Malaysia,19.5,28.1,38.5,79.0,83.9,20.1,38.6,2025
+271.0,Beijing Normal University ,China (Mainland),33.9,10.3,24.2,92.6,6.6,21.3,38.5,2025
+272.0,Radboud University ,Netherlands,28.0,14.1,27.0,66.0,81.3,18.6,38.4,2025
+273.0,University College Cork,Ireland,30.1,35.1,22.1,28.5,89.0,52.1,38.3,2025
+273.0,University of Galway,Ireland,26.2,30.3,63.2,13.2,95.2,43.2,38.3,2025
+275.0,Dalhousie University,Canada,19.4,16.7,12.9,53.5,99.9,74.6,38.2,2025
+275.0,University of Massachusetts Amherst,United States,38.2,17.2,10.0,48.8,61.0,25.3,38.2,2025
+275.0,University of Pittsburgh,United States,35.0,12.7,96.3,31.3,9.5,13.5,38.2,2025
+278.0,University of Porto,Portugal,41.3,17.9,10.8,59.6,6.6,19.8,38.1,2025
+278.0,Vrije Universiteit Brussel (VUB),Belgium,23.3,13.7,76.1,18.2,93.6,58.2,38.1,2025
+280.0,Ulsan National Institute of Science and Technology (UNIST),South Korea,13.6,13.5,87.9,98.1,29.3,9.6,38.0,2025
+281.0,The Hebrew University of Jerusalem,Israel,32.8,18.2,79.3,19.4,53.2,23.8,37.9,2025
+281.0,University of Strathclyde,United Kingdom,25.9,30.0,16.7,31.8,93.0,64.0,37.9,2025
+283.0,Université Paris 1 Panthéon-Sorbonne ,France,65.6,33.3,4.6,2.9,34.3,46.5,37.5,2025
+284.0,Southern University of Science and Technology,China (Mainland),9.3,2.5,89.7,98.8,37.5,1.4,37.3,2025
+285.0,Middle East Technical University,Turkey,31.2,70.2,9.0,22.3,12.0,18.3,37.2,2025
+285.0,Universidad Carlos III de Madrid (UC3M),Spain,33.5,56.3,49.5,4.1,64.8,52.3,37.2,2025
+285.0,University of Cologne,Germany,35.2,30.4,15.7,29.3,35.9,30.1,37.2,2025
+285.0,University of Leicester,United Kingdom,19.8,13.7,30.8,43.4,80.0,95.3,37.2,2025
+285.0,University of Milan,Italy,52.8,17.0,6.4,39.6,6.5,6.8,37.2,2025
+285.0,University of Surrey,United Kingdom,19.7,17.9,22.8,55.2,97.1,87.1,37.2,2025
+291.0,Swinburne University of Technology,Australia,13.9,11.4,12.4,86.5,94.9,77.3,37.1,2025
+291.0,University of Bergen,Norway,31.6,8.3,64.9,28.3,93.3,16.9,37.1,2025
+293.0,The University of Arizona,United States,37.3,22.2,44.4,38.8,31.6,15.1,37.0,2025
+293.0,University of Tasmania,Australia,16.0,7.4,22.1,59.8,79.9,89.7,37.0,2025
+295.0,Xian Jiaotong University,China (Mainland),19.0,39.4,14.0,89.5,3.9,3.8,36.9,2025
+296.0,Stellenbosch University,South Africa,26.1,35.8,3.5,61.9,19.7,8.0,36.7,2025
+297.0,University of Virginia,United States,37.3,27.3,55.8,29.1,6.1,11.3,36.6,2025
+298.0,Bauman Moscow State Technical University,Russia,36.2,51.9,99.9,1.4,65.6,70.0,36.5,2025
+298.0,Swansea University,United Kingdom,23.1,43.1,25.1,27.9,71.0,59.6,36.5,2025
+300.0,Huazhong University of Science and Technology,China (Mainland),20.4,28.2,7.9,99.9,5.2,2.7,36.4,2025
+301.0,Georgetown University,United States,29.3,41.9,63.0,14.0,28.0,37.3,36.3,2025
+302.0,Beijing Institute of Technology,China (Mainland),23.2,24.3,43.4,82.0,5.7,6.7,35.9,2025
+302.0,Université Paris Cité,France,27.8,6.2,9.2,87.0,12.0,35.2,35.9,2025
+304.0,Linköping University,Sweden,18.5,26.6,37.9,45.4,81.9,32.6,35.8,2025
+304.0,Universidade Federal do Rio de Janeiro,Brazil,61.9,23.3,13.7,7.8,7.6,1.5,35.8,2025
+306.0,Aalborg University,Denmark,19.9,20.8,25.5,53.2,77.3,14.9,35.7,2025
+307.0,"University of California, Irvine",United States,37.5,22.3,17.3,40.7,43.9,58.7,35.5,2025
+308.0,Airlangga University,Indonesia,37.1,79.1,57.0,1.5,58.0,6.7,35.3,2025
+309.0,Goethe-University Frankfurt am Main,Germany,43.2,33.2,24.4,15.9,37.4,24.1,35.2,2025
+309.0,Universität Innsbruck,Austria,20.3,7.8,73.1,9.3,100.0,100.0,35.2,2025
+311.0,North Carolina State University,United States,26.7,25.4,9.8,63.4,55.0,17.0,35.1,2025
+312.0,Jagiellonian University,Poland,37.8,46.4,65.1,5.5,5.7,15.4,35.0,2025
+312.0,University of Johannesburg,South Africa,17.7,17.9,40.3,24.9,96.5,51.4,35.0,2025
+314.0,Universität Stuttgart,Germany,23.1,33.0,6.8,55.2,36.0,46.8,34.9,2025
+315.0,Quaid-i-Azam University,Pakistan,17.3,42.4,3.2,93.6,7.0,1.9,34.8,2025
+316.0,RUDN University,Russia,24.4,48.7,92.0,2.1,8.0,92.2,34.7,2025
+316.0,Shandong University,China (Mainland),16.6,35.5,16.7,88.2,8.2,3.1,34.7,2025
+316.0,University of Notre Dame,United States,25.8,25.2,60.8,29.2,22.3,18.4,34.7,2025
+319.0,Simon Fraser University,Canada,24.0,11.4,6.2,36.6,97.0,83.9,34.6,2025
+320.0,University of Colorado Boulder,United States,36.1,17.5,38.3,34.9,32.2,4.9,34.4,2025
+321.0,L.N. Gumilyov Eurasian National University (ENU),Kazakhstan,34.4,62.0,92.6,1.4,68.7,8.2,34.2,2025
+321.0,National Technical University of Athens,Greece,21.3,44.9,4.6,76.0,1.3,4.6,34.2,2025
+321.0,Universidad Politécnica de Madrid (UPM),Spain,31.3,56.5,16.7,11.4,3.2,32.1,34.2,2025
+324.0,University of Miami,United States,19.0,29.5,50.0,39.3,66.7,16.9,34.1,2025
+324.0,University of Southern Denmark (SDU),Denmark,20.2,15.9,22.3,49.3,85.5,24.1,34.1,2025
+326.0,Daegu Gyeongbuk Institute of Science and Technology (DGIST),South Korea,10.5,11.8,84.1,99.9,6.6,3.3,34.0,2025
+326.0,Istanbul Technical University,Turkey,27.0,67.2,9.7,17.0,8.3,19.8,34.0,2025
+328.0,Kyung Hee University,South Korea,23.2,37.1,82.1,15.1,14.3,53.4,33.8,2025
+328.0,Rutgers UniversityNew Brunswick,United States,36.2,28.1,46.3,12.8,18.0,28.2,33.8,2025
+328.0,University of Delhi,India,38.1,35.3,4.3,25.9,1.3,1.5,33.8,2025
+331.0,Sun Yat-sen University,China (Mainland),31.8,28.8,46.4,49.5,2.2,3.6,33.7,2025
+501.0,Abu Dhabi University,United Arab Emirates,15.9,24.6,14.9,16.7,100.0,99.8,24.1,2025
+332.0,University of East Anglia (UEA),United Kingdom,17.2,7.2,15.2,58.7,66.8,32.2,33.6,2025
+334.0,Université Grenoble Alpes,France,44.7,14.3,7.9,41.7,20.2,35.1,33.5,2025
+335.0,Indian Institute of Technology Roorkee (IITR),India,19.4,29.0,6.8,93.8,1.3,2.0,33.4,2025
+336.0,Flinders University,Australia,13.5,5.6,7.2,51.8,97.2,88.8,33.3,2025
+336.0,Lappeenranta-Lahti University of Technology LUT,Finland,6.4,9.4,9.5,97.6,56.8,28.5,33.3,2025
+336.0,Sichuan University,China (Mainland),20.4,12.3,10.3,98.5,7.1,4.9,33.3,2025
+336.0,University of the Philippines,Philippines,36.3,65.3,31.1,1.9,1.6,1.1,33.3,2025
+340.0,University of Saskatchewan,Canada,11.1,5.3,18.2,57.0,77.3,49.5,33.2,2025
+340.0,University of South Australia,Australia,21.3,12.7,24.9,31.9,99.8,50.9,33.2,2025
+342.0,Brunel University London,United Kingdom,11.1,13.3,7.1,46.5,99.1,99.8,33.0,2025
+342.0,Sharif University of Technology,"Iran, Islamic Republic of",11.5,33.6,5.1,99.9,2.9,1.2,33.0,2025
+344.0,Indian Institute of Technology Guwahati (IITG),India,18.8,32.0,6.4,97.6,2.3,1.2,32.9,2025
+344.0,Tufts University,United States,16.9,7.7,53.5,45.7,23.5,38.1,32.9,2025
+344.0,University of Oulu,Finland,15.1,13.5,25.3,59.4,65.3,8.6,32.9,2025
+347.0,Tilburg University,Netherlands,14.7,32.5,10.5,55.1,98.4,60.6,32.8,2025
+347.0,University of Naples - Federico II,Italy,36.6,19.7,4.2,65.1,2.2,1.1,32.8,2025
+349.0,University of Victoria (UVic),Canada,17.0,7.7,3.9,62.5,94.7,40.9,32.6,2025
+350.0,Cairo University,Egypt,45.8,41.0,8.8,3.0,2.9,7.2,32.5,2025
+350.0,Sciences Po ,France,16.8,34.8,81.1,2.8,52.7,97.2,32.5,2025
+352.0,"City, University of London",United Kingdom,20.8,21.3,5.6,31.2,95.8,98.9,32.4,2025
+353.0,National University of Sciences And Technology (NUST) Islamabad,Pakistan,20.4,71.6,68.8,14.5,4.3,4.0,32.3,2025
+354.0,University of Pretoria,South Africa,23.9,48.8,4.0,15.5,33.3,8.2,32.2,2025
+355.0,Indiana University Bloomington,United States,33.4,23.6,23.3,29.1,36.3,10.8,32.1,2025
+355.0,University of Coimbra,Portugal,29.4,10.8,10.3,49.8,8.1,22.9,32.1,2025
+355.0,University of Luxembourg,Luxembourg,9.2,4.5,80.8,25.2,100.0,100.0,32.1,2025
+358.0,University of Tartu,Estonia,22.9,10.5,93.7,10.8,48.6,15.1,32.0,2025
+359.0,Gwangju Institute of Science and Technology (GIST),South Korea,13.8,9.0,38.6,100.0,18.6,8.8,31.9,2025
+359.0,Pontificia Universidad Católica del Perú,Peru,48.4,61.6,33.2,1.6,4.0,1.3,31.9,2025
+359.0,University of Aveiro,Portugal,13.9,5.6,11.1,90.6,4.2,15.3,31.9,2025
+362.0,Sultan Qaboos University,Oman,18.6,17.1,55.6,21.9,100.0,3.2,31.7,2025
+362.0,Xiamen University,China (Mainland),23.6,16.2,19.0,72.2,5.1,3.1,31.7,2025
+362.0,York University,Canada,22.7,18.6,3.9,22.6,53.1,78.7,31.7,2025
+365.0,Saint Petersburg State University,Russia,36.3,30.5,59.4,4.6,4.9,38.9,31.6,2025
+365.0,University of Illinois at Chicago (UIC),United States,38.5,28.3,31.1,23.3,8.0,19.3,31.6,2025
+367.0,Westfälische Wilhelms-Universität Münster ,Germany,31.6,22.8,64.5,10.0,30.5,4.5,31.5,2025
+368.0,Mahidol University,Thailand,44.1,21.8,81.1,4.7,4.9,4.2,31.4,2025
+368.0,University of Jordan,Jordan,32.9,46.7,19.5,3.5,21.2,43.5,31.4,2025
+368.0,University of Tehran,"Iran, Islamic Republic of",20.6,26.8,3.0,79.1,2.0,2.0,31.4,2025
+371.0,George Washington University,United States,25.2,28.8,27.3,27.5,24.6,34.4,31.3,2025
+371.0,Lincoln University ,New Zealand,8.2,5.0,31.8,52.1,100.0,96.3,31.3,2025
+371.0,Universitat Politècnica de Catalunya · BarcelonaTech (UPC),Spain,31.8,27.7,38.9,16.7,10.1,19.8,31.3,2025
+371.0,University of Turin,Italy,41.5,7.2,3.2,33.3,4.1,5.3,31.3,2025
+375.0,University of Florence,Italy,34.6,8.4,4.4,46.6,7.3,12.3,31.2,2025
+375.0,University of Turku,Finland,27.8,12.1,52.3,29.3,33.2,4.4,31.2,2025
+377.0,Nankai University,China (Mainland),18.5,9.8,25.4,82.9,12.3,2.7,31.1,2025
+377.0,Pontificia Universidad Javeriana,Colombia,45.3,56.6,26.3,1.6,3.4,2.5,31.1,2025
+377.0,University of Tsukuba,Japan,36.6,22.5,54.7,17.3,12.4,19.3,31.1,2025
+380.0,Technische Universität Bergakademie Freiberg,Germany,4.9,4.8,3.5,99.1,41.4,100.0,30.8,2025
+380.0,University of Kent,United Kingdom,15.4,10.0,14.6,45.7,95.1,49.8,30.8,2025
+382.0,University of Pisa,Italy,40.4,15.1,8.6,38.8,5.9,4.2,30.7,2025
+383.0,Anna University,India,10.0,12.0,5.5,100.0,,1.3,30.6,2025
+384.0, Western Sydney University,Australia,19.9,14.2,4.8,31.0,100.0,45.5,30.5,2025
+385.0,South China University of Technology,China (Mainland),12.1,6.6,20.0,97.8,10.7,4.6,30.4,2025
+385.0,Universiti Brunei Darussalam (UBD),Brunei,20.2,8.8,92.9,9.9,100.0,46.5,30.4,2025
+387.0,Belarusian State University,Belarus,28.4,40.7,93.0,1.3,3.8,59.3,30.3,2025
+388.0,Universidade Nova de Lisboa,Portugal,28.7,21.8,15.9,23.9,25.3,57.0,30.2,2025
+389.0,Università Vita-Salute San Raffaele,Italy,3.3,1.8,94.4,88.5,4.4,4.3,30.1,2025
+389.0,University of Cyprus (UCY),Cyprus,10.0,4.7,4.5,75.0,93.8,20.0,30.1,2025
+389.0,Virginia Polytechnic Institute and State University,United States,26.4,26.2,18.9,28.4,71.8,16.5,30.1,2025
+392.0,National Taiwan University of Science and Technology (Taiwan Tech),Taiwan,27.6,37.9,43.5,29.4,19.7,25.5,30.0,2025
+393.0,National and Kapodistrian University of Athens,Greece,26.7,33.2,2.1,31.0,9.9,15.9,29.9,2025
+393.0,"University of California, Santa Cruz",United States,17.7,5.9,7.4,65.3,53.4,7.0,29.9,2025
+393.0,"University of Rome ""Tor Vergata""",Italy,31.3,15.4,9.0,47.2,9.6,30.8,29.9,2025
+396.0,Northeastern University,United States,19.2,11.8,15.4,24.6,51.6,96.4,29.7,2025
+396.0,Ruhr-Universität Bochum,Germany,20.3,8.8,2.5,53.4,48.8,39.3,29.7,2025
+396.0,Sejong University ,South Korea,10.8,16.1,11.9,76.9,23.8,31.2,29.7,2025
+396.0,Université de Liège,Belgium,17.0,11.8,9.6,38.0,50.3,53.0,29.7,2025
+396.0,University of Southern Queensland ,Australia,8.8,5.7,4.8,73.1,84.1,23.0,29.7,2025
+401.0,Kazan (Volga region) Federal University,Russia,23.6,11.4,95.6,2.4,10.2,95.7,29.6,2025
+401.0,Koç University,Turkey,24.3,54.6,19.1,32.4,24.7,13.0,29.6,2025
+403.0,Amirkabir University of Technology,"Iran, Islamic Republic of",5.2,20.5,4.6,100.0,24.6,2.8,29.5,2025
+403.0,University of Canberra ,Australia,14.3,7.7,2.4,51.2,79.6,69.4,29.5,2025
+405.0,Institut National des Sciences Appliquées de Lyon (INSA),France,7.4,28.7,33.7,60.6,29.2,58.3,29.3,2025
+405.0,Satbayev University,Kazakhstan,27.8,43.4,88.1,1.2,66.7,16.9,29.3,2025
+405.0,USI - Università della Svizzera italiana,Switzerland,6.1,4.6,73.5,40.7,100.0,100.0,29.3,2025
+408.0,"Birkbeck, University of London",United Kingdom,10.0,3.6,15.6,57.1,97.7,99.5,29.1,2025
+408.0,Masaryk University,Czech Republic,23.5,31.7,9.5,13.8,27.6,66.7,29.1,2025
+410.0,HSE University,Russia,24.0,38.4,84.8,1.8,6.6,13.5,29.0,2025
+410.0,The American University in Cairo,Egypt,32.1,31.1,35.5,5.2,97.0,3.8,29.0,2025
+412.0,Auckland University of Technology (AUT),New Zealand,19.3,11.2,10.6,21.7,100.0,99.8,28.9,2025
+413.0,Graz University of Technology,Austria,14.7,15.7,98.9,11.1,81.8,59.7,28.8,2025
+413.0,Yeshiva University,United States,3.1,2.8,65.3,91.6,31.4,13.5,28.8,2025
+415.0,Concordia University,Canada,15.8,11.4,3.3,17.5,87.4,92.3,28.7,2025
+416.0,Oxford Brookes University,United Kingdom,30.7,37.6,13.7,7.0,67.5,67.4,28.6,2025
+416.0,Technion - Israel Institute of Technology,Israel,23.9,24.8,52.0,20.1,74.2,4.3,28.6,2025
+418.0, University of Dundee,United Kingdom,18.4,13.7,30.8,14.0,91.1,89.4,28.5,2025
+418.0,Bogaziçi University,Turkey,24.9,65.3,4.1,10.7,10.7,2.6,28.5,2025
+420.0,Czech Technical University in Prague,Czech Republic,22.0,42.4,80.6,3.6,19.9,50.2,28.4,2025
+421.0,Dublin City University,Ireland,20.1,26.0,25.8,10.7,75.0,22.6,28.3,2025
+421.0,University of Limerick,Ireland,18.3,25.5,15.7,23.0,87.1,30.8,28.3,2025
+423.0,Aston University,United Kingdom,12.5,18.5,9.0,34.4,94.2,53.8,28.1,2025
+423.0,Université Laval,Canada,19.2,8.1,26.0,23.8,55.8,41.6,28.1,2025
+425.0,National Taipei University of Technology,Taiwan,13.9,54.7,24.3,41.6,19.8,20.6,28.0,2025
+426.0,IPB University (a.k.a. Bogor Agricultural University),Indonesia,23.5,46.9,71.4,1.8,53.2,3.6,27.9,2025
+426.0,Leibniz University Hannover,Germany,21.2,32.0,17.9,17.4,46.3,26.9,27.9,2025
+428.0,Julius-Maximilians-Universität Würzburg,Germany,15.8,7.0,5.5,74.4,45.0,9.5,27.8,2025
+428.0,Southeast University,China (Mainland),13.5,6.6,20.8,82.0,14.4,3.4,27.8,2025
+430.0,University of Science and Technology Beijing,China (Mainland),11.8,4.2,10.2,99.4,3.1,2.8,27.7,2025
+431.0,Central South University,China (Mainland),8.6,4.1,5.5,99.7,6.4,4.0,27.6,2025
+431.0,Tomsk State University,Russia,22.0,13.5,99.0,4.2,21.6,91.6,27.6,2025
+431.0,University of Granada,Spain,44.4,14.1,5.7,26.2,3.1,14.8,27.6,2025
+477.0,Ajman University,United Arab Emirates,17.3,42.2,9.6,3.2,100.0,100.0,25.1,2025
+435.0,IE University,Spain,8.1,49.3,46.5,2.2,95.2,100.0,27.4,2025
+436.0,Iran University of Science and Technology,"Iran, Islamic Republic of",7.8,14.0,2.7,98.7,12.0,1.5,27.2,2025
+436.0,Murdoch University,Australia,8.0,4.5,5.2,57.3,85.6,73.9,27.2,2025
+436.0,Universitat Politècnica de València,Spain,26.5,16.3,36.1,19.7,5.5,25.0,27.2,2025
+439.0,Vilnius University ,Lithuania,19.1,23.5,74.7,3.3,12.4,13.6,27.1,2025
+440.0,Singapore University of Technology and Design,Singapore,7.4,5.3,99.0,66.0,,,27.0,2025
+440.0,Università degli Studi di Pavia,Italy,21.7,7.4,8.3,64.6,6.2,12.6,27.0,2025
+442.0,Colorado State University,United States,18.3,20.4,60.9,17.1,18.5,3.7,26.8,2025
+442.0,Novosibirsk State University,Russia,24.7,18.4,91.0,9.5,6.3,57.0,26.8,2025
+442.0,Università Cattolica del Sacro Cuore,Italy,24.2,35.5,27.6,19.2,15.5,7.1,26.8,2025
+445.0,James Cook University,Australia,14.4,6.5,17.5,46.9,36.7,16.0,26.7,2025
+445.0,Justus-Liebig-University Giessen,Germany,12.7,5.9,1.9,79.3,14.2,18.8,26.7,2025
+445.0,Universitat de Valencia,Spain,35.6,11.0,12.0,19.9,2.1,24.3,26.7,2025
+448.0,Dalian University of Technology,China (Mainland),9.6,3.8,18.1,88.1,11.5,2.9,26.6,2025
+448.0,Hunan University ,China (Mainland),7.9,10.3,15.2,90.6,4.6,1.8,26.6,2025
+448.0,Université de Montpellier,France,18.6,3.4,8.5,57.2,22.8,29.9,26.6,2025
+451.0,University of Electronic Science and Technology of China,China (Mainland),5.3,5.0,8.2,99.1,3.2,2.5,26.5,2025
+452.0,Beihang University (former BUAA),China (Mainland),12.1,7.8,41.5,72.1,7.0,4.5,26.4,2025
+452.0,National Taiwan Normal University,Taiwan,34.7,20.5,62.9,5.4,14.5,25.2,26.4,2025
+452.0,University of Kansas,United States,14.4,12.6,86.7,9.2,60.3,7.2,26.4,2025
+452.0,University of Stirling,United Kingdom,11.2,9.4,9.3,30.3,76.9,81.3,26.4,2025
+456.0,Moscow Institute of Physics and Technology (MIPT / Moscow Phystech),Russia,16.6,23.6,94.6,12.0,31.1,45.5,26.3,2025
+456.0,Umea University,Sweden,19.9,11.6,71.8,15.2,51.1,21.8,26.3,2025
+456.0,Université de Strasbourg,France,39.1,10.3,5.1,20.7,34.2,35.9,26.3,2025
+456.0,University of Guelph,Canada,12.8,12.8,5.0,50.1,46.4,14.3,26.3,2025
+460.0,"Stony Brook University, State University of New York",United States,18.0,7.3,32.2,23.6,34.7,43.5,26.2,2025
+461.0,Universidad de Santiago de Chile (USACH),Chile,43.4,55.0,7.2,4.2,6.3,2.2,26.1,2025
+462.0,Tampere University,Finland,21.7,15.4,20.4,33.1,44.5,5.9,26.0,2025
+462.0,Universidad de Sevilla,Spain,39.1,12.6,18.4,8.2,3.5,18.9,26.0,2025
+464.0,Macau University of Science and Technology,Macau SAR,4.4,3.4,3.9,56.4,100.0,100.0,25.9,2025
+465.0,Kobe University,Japan,28.4,33.2,43.9,11.4,7.0,5.6,25.8,2025
+466.0,Universität Konstanz,Germany,18.3,10.5,37.8,18.3,85.9,14.5,25.7,2025
+466.0,Universitat Ramon Llull,Spain,11.0,52.0,8.7,8.1,93.6,43.1,25.7,2025
+466.0,University at Buffalo SUNY,United States,18.0,10.7,8.8,33.6,20.1,36.9,25.7,2025
+466.0,Washington State University,United States,23.3,20.0,15.5,33.5,47.1,5.0,25.7,2025
+470.0,Iowa State University,United States,20.7,12.0,9.1,47.9,7.5,12.5,25.6,2025
+471.0,Ben-Gurion University of The Negev,Israel,14.4,14.5,11.1,51.7,64.0,14.3,25.5,2025
+472.0,"Essex, University of",United Kingdom,15.5,5.2,12.7,22.6,99.8,98.6,25.3,2025
+472.0,Johannes Kepler University Linz,Austria,12.8,12.3,75.9,14.3,83.5,33.5,25.3,2025
+474.0,Bangor University,United Kingdom,8.6,5.8,12.1,43.0,40.7,52.3,25.2,2025
+474.0,Hiroshima University,Japan,24.1,12.3,75.9,8.9,13.2,12.9,25.2,2025
+474.0,Universität Potsdam,Germany,15.8,3.4,18.6,36.5,51.8,21.2,25.2,2025
+434.0,University of Sharjah,United Arab Emirates,18.1,17.3,6.0,22.0,100.0,100.0,27.5,2025
+477.0,Bilkent University,Turkey,24.0,52.1,13.3,15.2,61.4,3.7,25.1,2025
+477.0,Indian Institute of Technology Indore (IIT Indore),India,6.1,5.0,27.1,95.6,2.1,1.1,25.1,2025
+477.0,Royal Holloway University of London,United Kingdom,14.9,5.7,13.0,27.2,94.1,86.9,25.1,2025
+481.0,Aix-Marseille University,France,36.9,6.5,7.9,21.7,17.5,18.2,25.0,2025
+481.0,Pontificia Universidad Católica Argentina,Argentina,19.9,29.4,99.9,1.1,1.9,6.7,25.0,2025
+481.0,"The University of Tennessee, Knoxville",United States,10.1,8.2,9.5,76.3,4.9,2.4,25.0,2025
+484.0,China Agricultural University ,China (Mainland),8.4,2.6,18.9,88.8,3.2,1.5,24.9,2025
+485.0,American University of Ras Al Khaimah ( AURAK ),United Arab Emirates,4.6,3.3,35.5,46.8,100.0,100.0,24.8,2025
+485.0,National Sun Yat-sen University,Taiwan,26.5,24.9,32.0,22.1,22.7,10.8,24.8,2025
+487.0,Universität Mannheim,Germany,15.3,53.9,3.0,31.0,42.4,22.7,24.7,2025
+488.0,University of Hawai?i at Manoa,United States,15.2,6.6,29.7,41.7,41.7,12.0,24.6,2025
+489.0,Chongqing University,China (Mainland),7.6,4.6,12.1,81.4,21.3,2.1,24.5,2025
+489.0,Chung-Ang University (CAU),South Korea,16.0,31.9,67.8,9.3,14.2,37.8,24.5,2025
+489.0,Isfahan University of Technology,"Iran, Islamic Republic of",4.9,15.7,5.1,92.2,2.3,1.4,24.5,2025
+489.0,Shanghai University,China (Mainland),20.3,13.1,50.8,30.5,40.9,5.3,24.5,2025
+489.0,UNESP,Brazil,41.1,25.8,13.0,16.2,5.9,2.7,24.5,2025
+489.0,University of Jyväskylä,Finland,16.2,11.4,87.7,12.1,44.0,2.6,24.5,2025
+495.0,Central Queensland University (CQUniversity Australia),Australia,9.0,6.7,29.4,20.9,97.1,97.8,24.4,2025
+495.0,Duy Tan University,Vietnam,11.9,25.3,3.9,49.0,37.7,1.4,24.4,2025
+497.0,Jilin University,China (Mainland),12.1,46.1,37.4,27.4,11.6,2.1,24.2,2025
+497.0,National Research Nuclear University MEPhI (Moscow Engineering Physics Institute),Russia,9.2,11.8,98.9,8.1,45.8,89.5,24.2,2025
+497.0,Universidad de Costa Rica,Costa Rica,35.4,24.3,32.3,1.6,2.4,2.0,24.2,2025
+497.0,"University of California, Riverside",United States,16.3,9.4,6.6,50.9,47.9,10.4,24.2,2025
+202.0,Khalifa University of Science and Technology,United Arab Emirates,22.7,21.0,80.0,60.7,100.0,78.9,46.1,2025
+501.0,Colorado School of Mines,United States,6.8,12.5,15.8,72.0,29.7,7.4,24.1,2025
+501.0,East China Normal University,China (Mainland),13.3,4.7,16.2,63.5,24.1,9.0,24.1,2025
+501.0,Johannes Gutenberg Universität Mainz,Germany,22.3,11.4,57.8,11.5,42.0,15.5,24.1,2025
+501.0,University of Huddersfield,United Kingdom,12.7,12.4,7.5,19.4,63.7,85.6,24.1,2025
+506.0,University of Delaware,United States,9.4,7.9,6.6,53.9,30.0,12.6,24.0,2025
+506.0,University of Trento,Italy,24.9,10.5,22.0,32.7,29.6,6.1,24.0,2025
+508.0,Aristotle University of Thessaloniki,Greece,28.2,26.1,4.3,15.8,1.7,4.1,23.9,2025
+508.0,Shenzhen University,China (Mainland),7.7,3.2,42.1,64.5,11.0,1.4,23.9,2025
+508.0,SOAS University of London ,United Kingdom,17.1,9.4,14.8,15.1,100.0,98.7,23.9,2025
+511.0,Ewha Womans University,South Korea,22.1,21.2,76.3,6.9,7.0,24.4,23.8,2025
+511.0,Zhengzhou University,China (Mainland),5.4,22.0,4.9,80.3,,2.4,23.8,2025
+513.0,Imam Abdulrahman Bin Faisal University (IAU) (formerly UNIVERSITY OF DAMMAM),Saudi Arabia,10.5,11.4,89.5,2.6,98.2,19.7,23.7,2025
+513.0,Prince Mohammad Bin Fahd university,Saudi Arabia,20.3,23.0,23.1,27.8,100.0,18.8,23.7,2025
+513.0,University of Milano-Bicocca ,Italy,20.4,10.9,3.3,54.1,3.5,4.3,23.7,2025
+516.0,Ateneo de Manila University,Philippines,21.4,64.5,24.4,1.8,2.9,2.5,23.6,2025
+516.0,Edith Cowan University ,Australia,8.5,6.8,4.8,49.8,78.5,57.7,23.6,2025
+516.0,INTI International University,Malaysia,7.7,19.9,89.1,1.7,95.4,92.9,23.6,2025
+516.0,Kyungpook National University,South Korea,11.1,16.7,66.9,20.5,11.1,25.7,23.6,2025
+516.0,Sabanci University,Turkey,19.5,44.6,38.2,19.4,32.0,14.2,23.6,2025
+516.0,University of Hull,United Kingdom,8.9,4.5,14.3,21.5,63.3,81.5,23.6,2025
+516.0,Ural Federal University - UrFU,Russia,19.6,14.2,95.5,2.1,5.4,25.3,23.6,2025
+524.0,Pusan National University,South Korea,18.7,16.5,43.5,19.5,10.5,13.7,23.4,2025
+524.0,Universidad Austral,Argentina,20.9,36.2,79.7,1.9,2.7,7.5,23.4,2025
+526.0,Universität Jena,Germany,17.2,5.7,99.9,8.8,,20.2,23.3,2025
+527.0,Missouri University of Science and Technology,United States,4.0,6.1,5.7,86.2,35.2,12.8,23.2,2025
+527.0,Universität Leipzig,Germany,23.5,9.7,74.8,8.4,,14.2,23.2,2025
+527.0,University of Bayreuth,Germany,10.2,15.7,50.3,25.8,54.8,21.2,23.2,2025
+527.0,Warsaw University of Technology,Poland,23.3,51.9,42.6,4.7,2.4,10.3,23.2,2025
+526.0,Coventry University,United Kingdom,9.9,10.4,16.9,7.1,77.0,99.9,23.3,2025
+531.0,Indian Institute of Technology (BHU) Varanasi,India,5.5,5.9,3.9,95.0,1.4,1.1,23.1,2025
+531.0,University of Bradford,United Kingdom,9.1,7.1,6.8,21.7,68.5,97.6,23.1,2025
+531.0,University of Utah,United States,15.7,6.3,50.0,30.5,15.5,10.3,23.1,2025
+534.0,Universidad Nacional de La Plata (UNLP),Argentina,40.8,19.2,28.4,1.9,5.3,22.6,23.0,2025
+535.0,Lahore University of Management Sciences (LUMS),Pakistan,17.2,73.2,27.1,7.4,12.2,1.8,22.9,2025
+535.0,Northumbria University at Newcastle,United Kingdom,10.9,10.8,11.8,15.8,70.7,56.2,22.9,2025
+535.0,University of Bordeaux,France,31.3,5.5,11.5,17.6,27.1,23.3,22.9,2025
+535.0,University of Eastern Finland,Finland,13.8,7.6,43.7,18.4,37.4,5.2,22.9,2025
+539.0,Applied Science University - Bahrain,Bahrain,23.5,25.0,39.3,2.0,100.0,46.8,22.8,2025
+539.0,Hitotsubashi University,Japan,14.4,73.0,30.8,2.1,19.8,20.0,22.8,2025
+539.0,Sunway University,Malaysia,13.0,39.2,44.0,10.3,35.9,33.2,22.8,2025
+539.0,Université de Fribourg,Switzerland,10.3,3.0,7.5,25.4,99.9,38.3,22.8,2025
+539.0,University of Salamanca,Spain,26.9,14.6,26.0,6.2,6.9,14.9,22.8,2025
+544.0,Universidad de Zaragoza,Spain,21.3,5.1,56.1,7.0,4.5,9.0,22.7,2025
+544.0,Universidad Pontificia Comillas,Spain,8.3,71.6,38.3,2.2,18.7,5.0,22.7,2025
+547.0,Northwestern Polytechnical University,China (Mainland),5.8,3.2,44.8,63.8,16.7,5.2,22.6,2025
+547.0,Tashkent Institute of Irrigation and Agricultural Mechanization Engineers - National Research University (TIIAME-NRU),Uzbekistan,30.6,19.9,79.0,2.2,26.3,4.1,22.6,2025
+547.0,University of Genoa,Italy,18.8,4.9,12.7,43.7,5.4,9.2,22.6,2025
+547.0,University of Iceland,Iceland,6.8,2.5,99.9,6.7,25.7,10.3,22.6,2025
+547.0,University of Windsor,Canada,3.9,3.9,2.2,36.2,88.7,83.8,22.6,2025
+261.0,United Arab Emirates University,United Arab Emirates,30.1,38.3,49.8,16.6,100.0,34.2,39.4,2025
+552.0,University of Tabriz,"Iran, Islamic Republic of",5.9,5.0,3.4,81.7,1.5,6.8,22.5,2025
+554.0,Hasselt University ,Belgium,5.8,3.3,82.1,15.4,74.2,25.3,22.4,2025
+554.0,Jordan University of Science & Technology,Jordan,21.0,30.7,18.8,5.6,38.2,67.7,22.4,2025
+554.0,Universiti Utara Malaysia (UUM),Malaysia,22.0,25.4,38.8,8.2,19.4,79.3,22.4,2025
+554.0,University of Dhaka,Bangladesh,23.0,45.6,11.2,2.9,1.6,1.0,22.4,2025
+554.0,University Ulm,Germany,7.4,5.5,78.5,31.2,39.6,21.0,22.4,2025
+559.0,Peter the Great St. Petersburg Polytechnic University,Russia,16.0,10.9,74.3,2.9,14.1,84.0,22.3,2025
+559.0,Ulster University,United Kingdom,8.1,11.3,9.6,11.5,99.8,77.6,22.3,2025
+559.0,Umm Al-Qura University ,Saudi Arabia,20.7,12.8,54.7,2.2,100.0,16.0,22.3,2025
+562.0,Université Claude Bernard Lyon 1,France,18.1,3.7,7.9,48.3,7.4,12.0,22.2,2025
+562.0,Universiti Teknologi Brunei,Brunei,15.4,6.3,88.5,9.9,100.0,5.8,22.2,2025
+564.0,Eötvös Loránd University,Hungary,23.3,22.6,10.7,6.1,5.2,11.0,22.1,2025
+565.0,Nanjing University of Science and Technology,China (Mainland),5.7,2.5,8.9,89.3,,,22.0,2025
+565.0,University of Connecticut,United States,14.4,8.1,18.2,29.8,27.4,19.4,22.0,2025
+567.0,Chiang Mai University,Thailand,34.8,17.1,17.3,4.2,4.8,4.2,21.9,2025
+567.0,Lebanese University,Lebanon,29.0,34.4,10.1,2.2,43.8,29.5,21.9,2025
+567.0,MGIMO University,Russia,9.8,25.4,100.0,1.3,11.3,41.3,21.9,2025
+570.0,"University of Chemistry and Technology, Prague",Czech Republic,5.6,9.3,98.4,13.5,23.9,78.4,21.8,2025
+570.0,University of Szeged,Hungary,18.5,16.8,37.0,4.8,11.8,41.2,21.8,2025
+570.0,University of the Punjab,Pakistan,15.6,52.2,4.5,11.6,3.2,1.3,21.8,2025
+573.0,Florida State University,United States,25.6,18.1,7.2,24.8,10.0,4.2,21.6,2025
+574.0,Florida International University,United States,15.3,22.5,11.8,12.6,20.3,12.9,21.5,2025
+574.0,University of Debrecen,Hungary,17.9,13.9,34.0,3.9,10.6,70.0,21.5,2025
+576.0,National Research Tomsk Polytechnic University,Russia,8.9,8.4,95.1,3.7,10.9,82.8,21.4,2025
+576.0,Sogang University,South Korea,17.5,45.5,56.7,5.1,7.1,19.6,21.4,2025
+576.0,Southern Cross University ,Australia,4.4,2.8,2.9,46.3,81.1,44.8,21.4,2025
+576.0,Universidad Adolfo Ibáñez,Chile,20.6,57.0,4.7,4.6,36.9,3.9,21.4,2025
+580.0,Jawaharlal Nehru University,India,31.0,14.4,10.0,28.9,,1.3,21.3,2025
+580.0,Jinan University (China),China (Mainland),5.2,2.7,8.9,52.7,34.0,83.1,21.3,2025
+580.0,Management and Science University,Malaysia,15.1,18.1,40.2,1.8,97.3,99.4,21.3,2025
+580.0,Politecnico di Bari,Italy,6.9,4.8,11.3,76.5,4.6,7.2,21.3,2025
+580.0,Université Paul Sabatier Toulouse III,France,17.7,3.4,38.5,28.0,5.1,21.5,21.3,2025
+585.0,Institut Teknologi Sepuluh Nopember (ITS Surabaya),Indonesia,17.3,48.9,47.8,1.6,47.5,5.3,21.2,2025
+585.0,Singapore Management University,Singapore,12.3,14.2,10.2,18.8,100.0,58.9,21.2,2025
+587.0,Bond University,Australia,4.3,4.6,47.8,28.8,70.4,86.6,21.1,2025
+587.0,Shoolini University of Biotechnology and Management Sciences,India,10.0,14.9,8.1,55.9,33.3,1.7,21.1,2025
+587.0,The University of Georgia,United States,20.6,18.6,9.8,24.4,6.7,4.5,21.1,2025
+587.0,Universiti Teknologi MARA - UiTM,Malaysia,30.8,40.4,17.6,2.8,1.7,2.1,21.1,2025
+587.0,University of Kwazulu-Natal,South Africa,12.6,10.2,5.5,24.5,24.5,1.6,21.1,2025
+592.0,Ain Shams University ,Egypt,24.0,32.2,11.3,1.9,23.1,7.5,21.0,2025
+592.0,Nottingham Trent University,United Kingdom,10.6,15.1,10.6,5.1,57.1,74.0,21.0,2025
+592.0,Universität Bremen,Germany,18.5,7.7,13.1,24.4,46.9,26.4,21.0,2025
+595.0,ITMO University,Russia,10.5,13.0,95.5,5.4,20.3,36.2,20.9,2025
+596.0,Thammasat University,Thailand,24.6,19.4,26.6,2.1,9.1,1.7,20.8,2025
+596.0,Universitas Padjadjaran,Indonesia,19.0,41.6,41.4,1.4,34.8,2.2,20.8,2025
+596.0,University of Iowa,United States,18.4,8.7,41.7,19.1,15.5,3.7,20.8,2025
+596.0,University of Ljubljana,Slovenia,19.9,9.2,33.3,5.9,4.2,9.7,20.8,2025
+596.0,University of Texas Dallas,United States,13.1,15.9,3.4,43.3,9.7,47.4,20.8,2025
+552.0,Al Ain University,United Arab Emirates,22.6,15.7,13.4,5.9,100.0,100.0,22.5,2025
