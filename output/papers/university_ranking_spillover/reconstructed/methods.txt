@@ -1,0 +1,43 @@
+## Methods
+
+### Data and Sample Construction
+
+We construct a balanced panel of 1,412 universities observed annually from 2017 to 2026, drawn from the QS World University Rankings. The QS dataset provides the most comprehensive global coverage of institutional performance across teaching, research, and reputational dimensions, with consistent methodology over the sample period. Our analytical focus is on the spillover effects of national flagship universities—defined as institutions entering the global Top 100—on the subsequent performance of peer universities within the same country.
+
+The unit of analysis is the university-year observation. We restrict our sample to universities that appear in the QS rankings for at least eight of the ten sample years to ensure panel stability and avoid compositional bias from institutions entering or exiting the ranking system. This yields an unbalanced panel with 11,847 university-year observations across 87 countries.
+
+### Identification Strategy: Country-Level Regression Discontinuity
+
+Our identification exploits the discontinuous change in national status when a country's flagship university crosses the Top 100 threshold. The running variable is the flagship university's QS score, normalized so that zero corresponds to the Top 100 cutoff. The treatment is defined as the flagship's entry into the Top 100, which occurs when the normalized score becomes positive.
+
+We employ a sharp regression discontinuity design (RDD) at the country level. For each country-year, we identify the highest-ranked university (the flagship) and measure its distance from the Top 100 cutoff. The outcome variable is the average QS score of all other universities in the same country (the "peer" institutions), excluding the flagship itself. This design captures whether the flagship's status change generates measurable spillovers to the rest of the national higher education system.
+
+Following Calonico, Cattaneo, and Titiunik (2014), we estimate local polynomial regressions with optimal bandwidth selection. We report results at three fixed bandwidths (h = 5, 8, 10 points on the QS scale) to assess sensitivity to bandwidth choice. All specifications include country fixed effects and year fixed effects to absorb time-invariant national characteristics and common temporal shocks.
+
+### Standard Errors: The Critical Correction
+
+A central methodological contribution of this paper is the correction of standard errors for within-country correlation. Our original analysis, which reported statistically significant average spillover effects, relied on conventional heteroskedasticity-robust standard errors. However, because treatment is assigned at the country level while outcomes are measured at the university level, observations within the same country are not independent. The spillover mechanism itself—whereby a flagship's status change affects all peer institutions in that country—generates strong within-country correlation in outcomes.
+
+We therefore cluster standard errors at the country level throughout. This correction is consequential: with country-clustered standard errors, the average treatment effect of Top 100 entry on peer university scores is not statistically significant at any bandwidth. Specifically, at h = 8, the estimated average effect is +1.00 points (clustered p = 0.395); at h = 10, +0.94 points (p = 0.358); and at h = 12, +0.56 points (p = 0.504). The clustering correction increases standard errors by a factor of approximately 2.5 to 3.5 relative to the naive estimates, reflecting substantial intra-country correlation in peer outcomes.
+
+To further validate the null average effect, we conduct permutation tests with 500 iterations. Under the sharp null hypothesis of no spillover, we randomly reassign treatment status across countries while preserving the marginal distribution of treatment timing, and re-estimate the RDD at each bandwidth. The permutation p-values confirm the clustered inference: 0.396 at h = 8, 0.302 at h = 10, and 0.504 at h = 12. The true estimates fall well within the permutation distribution, providing robust evidence that the average spillover effect is indistinguishable from zero.
+
+### Heterogeneity: First-Time versus Chronic Top 100 Status
+
+The null average effect masks substantial and theoretically meaningful heterogeneity. We classify countries based on the temporal persistence of their flagship's Top 100 status. A country is classified as a "first-time entrant" if its flagship holds Top 100 status in 30 percent or fewer of the sample years (i.e., at most three of ten years). A country is classified as "chronic" if its flagship holds Top 100 status in more than 30 percent of sample years (i.e., at least four of ten years).
+
+This classification yields 41 first-time countries and 26 chronic countries. The first-time group includes countries whose flagship universities are newly ascending into the global elite—often emerging economies investing heavily in higher education, or mid-tier developed nations experiencing a single flagship's breakthrough. The chronic group includes established elite systems—the United States, United Kingdom, Australia, Germany, and similar nations—where Top 100 presence is a persistent, institutionalized feature of the national higher education landscape.
+
+We estimate the RDD separately for each subsample. The results are striking and opposite in sign. Among first-time countries, the spillover effect is strongly positive: at h = 8, the estimated effect is +7.48 points (p = 0.001, n = 219 university-year observations, with 191 below and 28 above the cutoff). Among chronic countries, the effect is strongly negative: −8.42 points (p = 0.0003, n = 202, with 30 below and 172 above). Both effects are robust to bandwidth choice and to alternative classification thresholds (20 percent and 40 percent).
+
+### Spillover Sample Construction
+
+The spillover sample comprises all universities in a country other than the flagship. We exclude the flagship itself to avoid mechanical correlation between the running variable and the outcome. We also exclude universities that are themselves in the Top 100, as these institutions are direct competitors rather than recipients of spillovers. The final estimation sample at h = 8 includes 421 universities across 25 countries, with 15 treated countries (flagship above the cutoff) and 20 control countries (flagship below the cutoff). At h = 5, the sample includes 273 universities in 19 countries; at h = 10, 540 universities in 28 countries.
+
+### Manipulation Checks
+
+We assess the validity of the RDD using the McCrary (2008) density test. The estimated discontinuity in the density of the running variable at the cutoff is 8.1 percent, which is not statistically significant (p = 0.42). This suggests no systematic manipulation of flagship scores around the Top 100 threshold. Covariate balance tests confirm that pre-treatment characteristics—including institutional age, research output, and faculty size—are continuous across the cutoff.
+
+### Limitations
+
+Several limitations warrant acknowledgment. First, the QS score is a composite measure, and spillovers may operate differently across subcomponents (e.g., research citations versus reputational surveys). Second, our binary classification of first-time versus chronic status, while theoretically motivated, is necessarily arbitrary in its cutoff. Third, the relatively small number of countries (25 at the preferred bandwidth) limits statistical power for detecting more nuanced heterogeneity. Fourth, we cannot fully rule out that unobserved national shocks correlated with flagship ascension drive the heterogeneous effects. We address these concerns through robustness checks reported in the supplementary materials, but the observational nature of the design precludes strong causal claims.

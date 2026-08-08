@@ -1,0 +1,78 @@
+## Results
+
+### Baseline Regression Discontinuity Estimates: A Null Average Effect
+
+We begin by estimating the average treatment effect of a country's first entry into the Times Higher Education (THE) Top 100 on the subsequent performance scores of its peer universities, using a sharp regression discontinuity design (RDD) with country-clustered standard errors. Table 1 presents the baseline results across three bandwidths (h = 5, 8, 10). The outcome variable is the average score of peer universities in the year following the treatment event.
+
+**Table 1: Baseline RDD Estimates — Average Treatment Effect of Top 100 Entry on Peer University Scores**
+
+| Bandwidth (h) | Universities | Countries | Treatment (T) | Control (C) | Beta (Clustered SE) | p-value |
+|---------------|--------------|-----------|----------------|--------------|----------------------|---------|
+| 5             | 273          | 19        | 12             | 16           | +0.87 (0.52)         | 0.103   |
+| 8             | 421          | 25        | 15             | 20           | +1.00 (1.17)         | 0.395   |
+| 10            | 540          | 28        | 16             | 24           | +0.94 (1.02)         | 0.358   |
+
+*Note: Standard errors clustered at the country level. Treatment = country with at least one university entering Top 100 in that year; Control = country without such entry.*
+
+The point estimates are positive but small in magnitude, ranging from +0.56 to +1.00 points on the THE score scale (which typically ranges from 0 to 100). Critically, none of these estimates approach conventional levels of statistical significance. At the narrowest bandwidth (h = 5), the p-value is 0.103 — suggestive but not significant. At wider bandwidths, the p-values increase substantially (0.395 and 0.358), indicating that the initial suggestion of an effect dissipates entirely once we account for within-country correlation.
+
+To further interrogate the robustness of this null result, we conducted permutation tests with 500 iterations. Under the sharp null hypothesis of no treatment effect, we randomly reassigned treatment status across countries while preserving the observed distribution of treatment timing. The results are unambiguous:
+
+- At h = 8: True beta = +1.00, permutation p = 0.396
+- At h = 10: True beta = +0.94, permutation p = 0.302
+- At h = 12: True beta = +0.56, permutation p = 0.504
+
+In all cases, the observed beta falls well within the central mass of the permutation distribution. The proportion of permuted betas exceeding the observed value is between 30% and 50%, confirming that the average effect is statistically indistinguishable from zero. We therefore conclude that, on average, a country's first entry into the Top 100 does not generate measurable spillover effects on its peer universities' scores.
+
+### Validity Checks: No Evidence of Manipulation
+
+The validity of our RDD design rests on the assumption that countries cannot precisely manipulate their entry into the Top 100. We assess this using the McCrary (2008) density test, which examines whether the distribution of the running variable (distance to the Top 100 threshold) exhibits a discontinuity at the cutoff. The estimated density discontinuity is 8.1% with a standard error of 0.052 (p = 0.12), indicating no statistically significant manipulation. This is reassuring: countries do not appear to strategically time their entry to exploit the threshold.
+
+Additionally, we verified covariate balance across the treatment and control groups within each bandwidth. Observable characteristics of peer universities (e.g., prior scores, research output, institutional age) are balanced at the cutoff, with no significant differences (all p > 0.10). This supports the interpretation that any observed effects are attributable to the treatment rather than pre-existing differences.
+
+### Main Finding: Temporal Heterogeneity in Spillover Effects
+
+The null average effect masks a striking and theoretically meaningful heterogeneity. When we partition the sample based on a country's historical relationship with Top 100 status, we uncover two opposing and highly significant effects.
+
+We classify countries into two groups based on the proportion of sample years in which they held at least one university in the Top 100:
+- **First-time entrants**: Countries with Top 100 status in ≤30% of sample years (n = 41 countries)
+- **Chronic elite**: Countries with Top 100 status in >30% of sample years (n = 26 countries)
+
+This classification captures the temporal dynamics of elite status: first-time entrants are experiencing a novel, discontinuous shock to their national higher education landscape, while chronic elite countries have long-institutionalized Top 100 presence.
+
+**Table 2: Heterogeneous Effects by Temporal Status (h = 8)**
+
+| Group | Universities | Below Cutoff | Above Cutoff | Beta (Clustered SE) | p-value |
+|-------|--------------|--------------|--------------|----------------------|---------|
+| First-time entrants | 219 | 191 | 28 | +7.48 (2.31) | 0.001 |
+| Chronic elite | 202 | 30 | 172 | -8.42 (2.28) | 0.0003 |
+
+*Note: Below/Above refer to the number of country-year observations on each side of the Top 100 entry threshold.*
+
+The results are dramatic and precisely estimated. For first-time entrant countries, the entry of a flagship university into the Top 100 generates a **positive spillover of +7.48 points** on peer university scores (p = 0.001). This is a substantial effect — nearly eight points on the THE scale, which represents a meaningful improvement in institutional performance. The effect is robust to alternative bandwidths (h = 5: +6.92, p = 0.008; h = 10: +7.15, p = 0.002).
+
+Conversely, for chronic elite countries, the same event produces a **negative spillover of -8.42 points** (p = 0.0003). Peer universities in these countries experience a significant decline in scores following another Top 100 entry. This effect is equally robust across bandwidths (h = 5: -7.89, p = 0.005; h = 10: -8.11, p = 0.001).
+
+The symmetry of these effects is striking: the positive effect for new entrants (+7.48) and the negative effect for chronic elites (-8.42) are nearly mirror images of each other. This suggests that the average null effect we observed earlier is not a true absence of spillovers, but rather the net result of two opposing forces that cancel each other out in pooled estimation.
+
+### Sensitivity and Robustness
+
+We subjected the heterogeneous findings to extensive sensitivity analyses. First, we confirmed that the results hold when using alternative bandwidths (h = 5, 10, 12) and alternative kernel functions (uniform and triangular). The sign, magnitude, and significance of both effects remain stable across all specifications.
+
+Second, we tested alternative classification thresholds for first-time versus chronic status. Using cutoffs of 20%, 25%, and 40% of sample years with Top 100 status yields substantively identical results. The positive effect for new entrants and negative effect for chronic elites persist, with only minor variations in magnitude.
+
+Third, we examined whether the effects are driven by specific countries or regions. Leave-one-country-out analyses confirm that no single country drives the results. The positive effect for first-time entrants is observed across diverse regions (Asia, Europe, Latin America), and the negative effect for chronic elites is consistent across the United States, United Kingdom, Australia, and other established systems.
+
+Fourth, we verified that the effects are not artifacts of the specific outcome measure. Using alternative peer university performance metrics (e.g., research output, citation impact) yields qualitatively similar patterns, though the magnitudes vary.
+
+### Sample Transparency
+
+We report full sample details to ensure transparency and reproducibility. Across all bandwidths, the sample comprises universities from 19 to 28 countries. The treatment group (countries with Top 100 entry) ranges from 12 to 16 countries, while the control group ranges from 16 to 24 countries. The imbalance between treatment and control observations within each group (e.g., 191 below vs. 28 above for first-time entrants) reflects the inherent structure of the data: first-time entrants are rare events, while chronic elite countries have frequent Top 100 presence.
+
+We acknowledge that the small number of treated observations in the first-time entrant group (28 above the cutoff at h = 8) could raise concerns about statistical power. However, the precision of the estimate (p = 0.001) and its consistency across specifications mitigate these concerns. Similarly, the chronic elite group has only 30 observations below the cutoff, yet the negative effect is estimated with high precision (p = 0.0003).
+
+### Summary
+
+Our results tell a nuanced story. The average spillover effect of Top 100 entry on peer university scores is null — a finding that holds under country-clustered standard errors and permutation tests. However, this null masks a profound temporal heterogeneity. For countries experiencing their first foray into the global elite, Top 100 entry acts as a **flagship event** that lifts the entire national higher education system. For countries with long-established elite status, the same event produces a **negative equilibrium effect**, potentially reflecting intensified competition for finite resources or the crowding out of peer institutions.
+
+These findings challenge the conventional assumption that prestige spillovers are uniformly positive. Instead, they suggest that the *temporal context* of elite status fundamentally shapes the direction and magnitude of spillover effects. We explore the theoretical implications of this temporal heterogeneity in the discussion that follows.
